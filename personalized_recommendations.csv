@@ -1,0 +1,43 @@
+patient_id,recommended_drug,hybrid_score
+101,Potassium iodide,10.24
+101,Zovirax Cream,10.18
+101,Nizoral,10.17
+102,Zovirax Cream,10.33
+102,Zymine,10.27
+102,Zohydro ER,10.26
+103,Potassium iodide,10.37
+103,Zohydro ER,10.15
+103,Ozurdex,10.15
+104,Zymine,10.34
+104,Polysporin First Aid Antibiotic Ointment,10.26
+104,Zohydro ER,10.23
+105,Zymine,10.34
+105,Zovirax Cream,10.17
+105,Potassium iodide,10.12
+106,Zymine,10.34
+106,Polysporin First Aid Antibiotic Ointment,10.23
+106,Nizoral,10.21
+107,Zymine,10.22
+107,Zohydro ER,10.2
+107,Zovirax Cream,10.19
+108,Zymine,10.44
+108,Nizoral,10.12
+108,Potassium iodide,10.08
+109,Zymine,10.6
+109,Zovirax Cream,10.3
+109,Polysporin First Aid Antibiotic Ointment,10.29
+110,Potassium iodide,10.26
+110,Zohydro ER,10.25
+110,Zovirax Cream,10.21
+111,Zovirax Cream,10.28
+111,Nizoral,10.28
+111,Polysporin First Aid Antibiotic Ointment,10.25
+112,Zohydro ER,10.49
+112,Zovirax Cream,10.35
+112,Nizoral,10.27
+113,Potassium iodide,10.49
+113,Zymine,10.21
+113,Zovirax Cream,10.17
+114,Polysporin First Aid Antibiotic Ointment,10.42
+114,Zovirax Cream,10.41
+114,Nizoral,10.29

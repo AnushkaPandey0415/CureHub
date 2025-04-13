@@ -1,0 +1,198 @@
+{
+  "101": [
+    {
+      "recommended_drug": "Potassium iodide",
+      "hybrid_score": 10.24
+    },
+    {
+      "recommended_drug": "Zovirax Cream",
+      "hybrid_score": 10.18
+    },
+    {
+      "recommended_drug": "Nizoral",
+      "hybrid_score": 10.17
+    }
+  ],
+  "102": [
+    {
+      "recommended_drug": "Zovirax Cream",
+      "hybrid_score": 10.33
+    },
+    {
+      "recommended_drug": "Zymine",
+      "hybrid_score": 10.27
+    },
+    {
+      "recommended_drug": "Zohydro ER",
+      "hybrid_score": 10.26
+    }
+  ],
+  "103": [
+    {
+      "recommended_drug": "Potassium iodide",
+      "hybrid_score": 10.37
+    },
+    {
+      "recommended_drug": "Zohydro ER",
+      "hybrid_score": 10.15
+    },
+    {
+      "recommended_drug": "Ozurdex",
+      "hybrid_score": 10.15
+    }
+  ],
+  "104": [
+    {
+      "recommended_drug": "Zymine",
+      "hybrid_score": 10.34
+    },
+    {
+      "recommended_drug": "Polysporin First Aid Antibiotic Ointment",
+      "hybrid_score": 10.26
+    },
+    {
+      "recommended_drug": "Zohydro ER",
+      "hybrid_score": 10.23
+    }
+  ],
+  "105": [
+    {
+      "recommended_drug": "Zymine",
+      "hybrid_score": 10.34
+    },
+    {
+      "recommended_drug": "Zovirax Cream",
+      "hybrid_score": 10.17
+    },
+    {
+      "recommended_drug": "Potassium iodide",
+      "hybrid_score": 10.12
+    }
+  ],
+  "106": [
+    {
+      "recommended_drug": "Zymine",
+      "hybrid_score": 10.34
+    },
+    {
+      "recommended_drug": "Polysporin First Aid Antibiotic Ointment",
+      "hybrid_score": 10.23
+    },
+    {
+      "recommended_drug": "Nizoral",
+      "hybrid_score": 10.21
+    }
+  ],
+  "107": [
+    {
+      "recommended_drug": "Zymine",
+      "hybrid_score": 10.22
+    },
+    {
+      "recommended_drug": "Zohydro ER",
+      "hybrid_score": 10.2
+    },
+    {
+      "recommended_drug": "Zovirax Cream",
+      "hybrid_score": 10.19
+    }
+  ],
+  "108": [
+    {
+      "recommended_drug": "Zymine",
+      "hybrid_score": 10.44
+    },
+    {
+      "recommended_drug": "Nizoral",
+      "hybrid_score": 10.12
+    },
+    {
+      "recommended_drug": "Potassium iodide",
+      "hybrid_score": 10.08
+    }
+  ],
+  "109": [
+    {
+      "recommended_drug": "Zymine",
+      "hybrid_score": 10.6
+    },
+    {
+      "recommended_drug": "Zovirax Cream",
+      "hybrid_score": 10.3
+    },
+    {
+      "recommended_drug": "Polysporin First Aid Antibiotic Ointment",
+      "hybrid_score": 10.29
+    }
+  ],
+  "110": [
+    {
+      "recommended_drug": "Potassium iodide",
+      "hybrid_score": 10.26
+    },
+    {
+      "recommended_drug": "Zohydro ER",
+      "hybrid_score": 10.25
+    },
+    {
+      "recommended_drug": "Zovirax Cream",
+      "hybrid_score": 10.21
+    }
+  ],
+  "111": [
+    {
+      "recommended_drug": "Zovirax Cream",
+      "hybrid_score": 10.28
+    },
+    {
+      "recommended_drug": "Nizoral",
+      "hybrid_score": 10.28
+    },
+    {
+      "recommended_drug": "Polysporin First Aid Antibiotic Ointment",
+      "hybrid_score": 10.25
+    }
+  ],
+  "112": [
+    {
+      "recommended_drug": "Zohydro ER",
+      "hybrid_score": 10.49
+    },
+    {
+      "recommended_drug": "Zovirax Cream",
+      "hybrid_score": 10.35
+    },
+    {
+      "recommended_drug": "Nizoral",
+      "hybrid_score": 10.27
+    }
+  ],
+  "113": [
+    {
+      "recommended_drug": "Potassium iodide",
+      "hybrid_score": 10.49
+    },
+    {
+      "recommended_drug": "Zymine",
+      "hybrid_score": 10.21
+    },
+    {
+      "recommended_drug": "Zovirax Cream",
+      "hybrid_score": 10.17
+    }
+  ],
+  "114": [
+    {
+      "recommended_drug": "Polysporin First Aid Antibiotic Ointment",
+      "hybrid_score": 10.42
+    },
+    {
+      "recommended_drug": "Zovirax Cream",
+      "hybrid_score": 10.41
+    },
+    {
+      "recommended_drug": "Nizoral",
+      "hybrid_score": 10.29
+    }
+  ]
+}
