@@ -1,1725 +1,1737 @@
 [
   {
     "patient_id": 0,
-    "condition": "4</span> users found this comment helpful.",
+    "condition": "Psoriasis",
     "recommendations": [
       {
-        "drug": "Adipex-P",
-        "score": 5.832
+        "drug": "Taclonex",
+        "score": 7.845
       },
       {
-        "drug": "Augmentin",
-        "score": 1.319
+        "drug": "Elocon",
+        "score": 7.582
       },
       {
-        "drug": "Trulance",
-        "score": 0.759
+        "drug": "Kenalog-10",
+        "score": 7.582
+      },
+      {
+        "drug": "Psoriasin",
+        "score": 7.582
+      },
+      {
+        "drug": "Triamcinolone",
+        "score": 7.582
       }
     ]
   },
   {
     "patient_id": 1,
-    "condition": "Periodic Limb Movement Disorde",
+    "condition": "Juvenile Idiopathic Arthritis",
     "recommendations": [
       {
-        "drug": "Ropinirole",
-        "score": 1.188
+        "drug": "Remicade",
+        "score": 6.862
       }
     ]
   },
   {
     "patient_id": 2,
-    "condition": "Chlamydia Infection",
+    "condition": "Malaria Prevention",
     "recommendations": [
       {
-        "drug": "Doxycycline",
-        "score": 5.799
+        "drug": "Lariam",
+        "score": 5.055
       },
       {
-        "drug": "Azithromycin",
-        "score": 4.823
+        "drug": "Mefloquine",
+        "score": 0.735
       }
     ]
   },
   {
     "patient_id": 3,
-    "condition": "Endometrial Hyperplasia, Prophylaxis",
+    "condition": "Testicular Cance",
     "recommendations": [
       {
-        "drug": "Progesterone",
-        "score": 7.249
+        "drug": "Ifosfamide",
+        "score": 7.582
       }
     ]
   },
   {
     "patient_id": 4,
-    "condition": "Chronic Pancreatitis",
+    "condition": "Anesthesia",
     "recommendations": [
       {
-        "drug": "Creon",
-        "score": 5.799
+        "drug": "Propofol",
+        "score": 6.404
       },
       {
-        "drug": "Pancrelipase",
-        "score": 5.799
+        "drug": "Fentanyl",
+        "score": 6.319
+      },
+      {
+        "drug": "Lidocaine / prilocaine",
+        "score": 6.319
+      },
+      {
+        "drug": "Sublimaze",
+        "score": 0.919
       }
     ]
   },
   {
     "patient_id": 5,
-    "condition": "Urticaria",
+    "condition": "Obstructive Sleep Apnea/Hypopnea Syndrome",
     "recommendations": [
       {
-        "drug": "Allegra",
-        "score": 7.249
+        "drug": "Provigil",
+        "score": 6.185
       },
       {
-        "drug": "Loratadine",
-        "score": 7.249
+        "drug": "Modafinil",
+        "score": 5.719
       },
       {
-        "drug": "Xyzal",
-        "score": 7.249
-      },
-      {
-        "drug": "Zyrtec",
-        "score": 7.249
-      },
-      {
-        "drug": "Xolair",
-        "score": 6.549
+        "drug": "Armodafinil",
+        "score": 4.385
       }
     ]
   },
   {
     "patient_id": 6,
-    "condition": "Sinusitis",
+    "condition": "Allergic Urticaria",
     "recommendations": [
       {
-        "drug": "Moxifloxacin",
-        "score": 8.748
-      },
-      {
-        "drug": "Biaxin",
-        "score": 8.699
-      },
-      {
-        "drug": "Suprax",
-        "score": 8.699
-      },
-      {
-        "drug": "Clarithromycin",
-        "score": 8.026
-      },
-      {
-        "drug": "Cefuroxime",
-        "score": 7.908
+        "drug": "Hydroxyzine",
+        "score": 3.44
       }
     ]
   },
   {
     "patient_id": 7,
-    "condition": "Chlamydia Infection",
+    "condition": "10</span> users found this comment helpful.",
     "recommendations": [
       {
-        "drug": "Doxycycline",
-        "score": 8.699
-      },
-      {
-        "drug": "Azithromycin",
-        "score": 7.234
+        "drug": "Roxicet",
+        "score": 6.319
       }
     ]
   },
   {
     "patient_id": 8,
-    "condition": "Hypokalemia",
+    "condition": "Postherpetic Neuralgia",
     "recommendations": [
       {
-        "drug": "Spironolactone",
-        "score": 6.549
+        "drug": "Gabapentin",
+        "score": 6.6
+      },
+      {
+        "drug": "Neurontin",
+        "score": 5.422
       }
     ]
   },
   {
     "patient_id": 9,
-    "condition": "Hyperthyroidism",
-    "recommendations": [
-      {
-        "drug": "Methimazole",
-        "score": 2.439
-      }
-    ]
-  },
-  {
-    "patient_id": 10,
-    "condition": "Ovulation Induction",
-    "recommendations": [
-      {
-        "drug": "Clomiphene",
-        "score": 2.752
-      }
-    ]
-  },
-  {
-    "patient_id": 11,
-    "condition": "Pulmonary Embolism, Recurrent Event",
-    "recommendations": [
-      {
-        "drug": "Xarelto",
-        "score": 5.799
-      }
-    ]
-  },
-  {
-    "patient_id": 12,
-    "condition": "Burns, External",
-    "recommendations": [
-      {
-        "drug": "Silver sulfadiazine",
-        "score": 5.855
-      }
-    ]
-  },
-  {
-    "patient_id": 13,
-    "condition": "Ovarian Cance",
-    "recommendations": [
-      {
-        "drug": "Niraparib",
-        "score": 0.949
-      },
-      {
-        "drug": "Zejula",
-        "score": 0.949
-      }
-    ]
-  },
-  {
-    "patient_id": 14,
-    "condition": "Immunosuppression",
-    "recommendations": [
-      {
-        "drug": "Prednisone",
-        "score": 5.239
-      }
-    ]
-  },
-  {
-    "patient_id": 15,
-    "condition": "Postoperative Ocular Inflammation",
-    "recommendations": [
-      {
-        "drug": "TobraDex",
-        "score": 4.679
-      }
-    ]
-  },
-  {
-    "patient_id": 16,
-    "condition": "Gastroenteritis",
-    "recommendations": [
-      {
-        "drug": "Zofran",
-        "score": 5.855
-      }
-    ]
-  },
-  {
-    "patient_id": 17,
-    "condition": "Nausea/Vomiting of Pregnancy",
-    "recommendations": [
-      {
-        "drug": "Doxylamine / pyridoxine",
-        "score": 4.888
-      },
-      {
-        "drug": "Diclegis",
-        "score": 4.699
-      }
-    ]
-  },
-  {
-    "patient_id": 18,
-    "condition": "Bacterial Skin Infection",
-    "recommendations": [
-      {
-        "drug": "Bactrim",
-        "score": 7.019
-      },
-      {
-        "drug": "Sulfamethoxazole / trimethoprim",
-        "score": 5.029
-      },
-      {
-        "drug": "Bactrim DS",
-        "score": 4.582
-      }
-    ]
-  },
-  {
-    "patient_id": 19,
-    "condition": "Basal Cell Carcinoma",
-    "recommendations": [
-      {
-        "drug": "Imiquimod",
-        "score": 7.662
-      },
-      {
-        "drug": "Efudex",
-        "score": 4.499
-      },
-      {
-        "drug": "Aldara",
-        "score": 2.868
-      }
-    ]
-  },
-  {
-    "patient_id": 20,
-    "condition": "Trichomoniasis",
-    "recommendations": [
-      {
-        "drug": "Flagyl",
-        "score": 7.249
-      },
-      {
-        "drug": "Metronidazole",
-        "score": 7.166
-      }
-    ]
-  },
-  {
-    "patient_id": 21,
-    "condition": "Deep Vein Thrombosis, Recurrent Event",
-    "recommendations": [
-      {
-        "drug": "Xarelto",
-        "score": 1.139
-      }
-    ]
-  },
-  {
-    "patient_id": 22,
-    "condition": "Deep Vein Thrombosis, Recurrent Event",
-    "recommendations": [
-      {
-        "drug": "Xarelto",
-        "score": 0.949
-      }
-    ]
-  },
-  {
-    "patient_id": 23,
-    "condition": "Insomnia, Stimulant-Associated",
-    "recommendations": [
-      {
-        "drug": "Clonidine",
-        "score": 4.922
-      }
-    ]
-  },
-  {
-    "patient_id": 24,
-    "condition": "Cutaneous Candidiasis",
-    "recommendations": [
-      {
-        "drug": "Nystatin",
-        "score": 5.849
-      }
-    ]
-  },
-  {
-    "patient_id": 25,
-    "condition": "Ear Wax Impaction",
-    "recommendations": [
-      {
-        "drug": "Carbamide peroxide",
-        "score": 0.759
-      }
-    ]
-  },
-  {
-    "patient_id": 26,
-    "condition": "Prostate Cance",
-    "recommendations": [
-      {
-        "drug": "Zytiga",
-        "score": 5.799
-      },
-      {
-        "drug": "Lupron",
-        "score": 5.552
-      },
-      {
-        "drug": "Casodex",
-        "score": 3.032
-      },
-      {
-        "drug": "Leuprolide",
-        "score": 2.752
-      },
-      {
-        "drug": "Zoladex",
-        "score": 0.759
-      }
-    ]
-  },
-  {
-    "patient_id": 27,
-    "condition": "Obsessive Compulsive Disorde",
-    "recommendations": [
-      {
-        "drug": "Clomipramine",
-        "score": 8.699
-      },
-      {
-        "drug": "Luvox",
-        "score": 8.699
-      },
-      {
-        "drug": "Paroxetine",
-        "score": 8.699
-      },
-      {
-        "drug": "Paxil",
-        "score": 8.699
-      },
-      {
-        "drug": "Anafranil",
-        "score": 8.328
-      }
-    ]
-  },
-  {
-    "patient_id": 28,
-    "condition": "Postoperative Pain",
-    "recommendations": [
-      {
-        "drug": "Ketorolac",
-        "score": 7.29
-      },
-      {
-        "drug": "Bupivacaine",
-        "score": 7.249
-      }
-    ]
-  },
-  {
-    "patient_id": 29,
-    "condition": "Onychomycosis, Toenail",
-    "recommendations": [
-      {
-        "drug": "Ciclopirox",
-        "score": 7.249
-      },
-      {
-        "drug": "Fluconazole",
-        "score": 7.249
-      },
-      {
-        "drug": "Kerydin",
-        "score": 7.249
-      },
-      {
-        "drug": "Jublia",
-        "score": 6.988
-      },
-      {
-        "drug": "Terbinafine",
-        "score": 6.099
-      }
-    ]
-  },
-  {
-    "patient_id": 30,
-    "condition": "Period Pain",
-    "recommendations": [
-      {
-        "drug": "Mefenamic acid",
-        "score": 5.832
-      },
-      {
-        "drug": "Cataflam",
-        "score": 5.799
-      },
-      {
-        "drug": "Naproxen",
-        "score": 5.799
-      },
-      {
-        "drug": "Ponstel",
-        "score": 5.799
-      },
-      {
-        "drug": "Valdecoxib",
-        "score": 5.799
-      }
-    ]
-  },
-  {
-    "patient_id": 31,
-    "condition": "Temporomandibular Joint Disorde",
-    "recommendations": [
-      {
-        "drug": "Piroxicam",
-        "score": 5.339
-      },
-      {
-        "drug": "Baclofen",
-        "score": 1.139
-      }
-    ]
-  },
-  {
-    "patient_id": 32,
-    "condition": "Sinusitis",
-    "recommendations": [
-      {
-        "drug": "Moxifloxacin",
-        "score": 8.748
-      },
-      {
-        "drug": "Biaxin",
-        "score": 8.699
-      },
-      {
-        "drug": "Suprax",
-        "score": 8.699
-      },
-      {
-        "drug": "Clarithromycin",
-        "score": 8.026
-      },
-      {
-        "drug": "Cefuroxime",
-        "score": 7.908
-      }
-    ]
-  },
-  {
-    "patient_id": 33,
-    "condition": "Myasthenia Gravis",
-    "recommendations": [
-      {
-        "drug": "Mycophenolate mofetil",
-        "score": 4.679
-      }
-    ]
-  },
-  {
-    "patient_id": 34,
-    "condition": "HIV Infection",
-    "recommendations": [
-      {
-        "drug": "Efavirenz / emtricitabine / tenofovir",
-        "score": 5.804
-      },
-      {
-        "drug": "Truvada",
-        "score": 5.799
-      },
-      {
-        "drug": "Cobicistat / elvitegravir / emtricitabine / tenofovir",
-        "score": 5.668
-      },
-      {
-        "drug": "Atripla",
-        "score": 5.526
-      },
-      {
-        "drug": "Stribild",
-        "score": 5.295
-      }
-    ]
-  },
-  {
-    "patient_id": 35,
-    "condition": "Mania",
-    "recommendations": [
-      {
-        "drug": "Stavzor",
-        "score": 5.799
-      },
-      {
-        "drug": "Haldol",
-        "score": 1.319
-      }
-    ]
-  },
-  {
-    "patient_id": 36,
-    "condition": "Cold Symptoms",
-    "recommendations": [
-      {
-        "drug": "Actifed",
-        "score": 5.799
-      },
-      {
-        "drug": "Acetaminophen / dextromethorphan / doxylamine / pseudoephedrine",
-        "score": 5.552
-      },
-      {
-        "drug": "Sudafed PE Severe Cold",
-        "score": 5.239
-      },
-      {
-        "drug": "Chlorpheniramine / hydrocodone",
-        "score": 4.679
-      }
-    ]
-  },
-  {
-    "patient_id": 37,
-    "condition": "Anesthetic Adjunct",
-    "recommendations": [
-      {
-        "drug": "Hydromorphone",
-        "score": 5.799
-      }
-    ]
-  },
-  {
-    "patient_id": 38,
-    "condition": "Dietary Supplementation",
-    "recommendations": [
-      {
-        "drug": "Ascorbic acid",
-        "score": 8.748
-      },
-      {
-        "drug": "Chondroitin / glucosamine",
-        "score": 8.699
-      },
-      {
-        "drug": "Multivitamin",
-        "score": 4.548
-      },
-      {
-        "drug": "Omega-3 polyunsaturated fatty acids",
-        "score": 4.548
-      },
-      {
-        "drug": "Biotin",
-        "score": 1.139
-      }
-    ]
-  },
-  {
-    "patient_id": 39,
-    "condition": "Multiple Sclerosis",
-    "recommendations": [
-      {
-        "drug": "Avonex",
-        "score": 7.249
-      },
-      {
-        "drug": "Corticotropin",
-        "score": 7.249
-      },
-      {
-        "drug": "Glatiramer",
-        "score": 7.166
-      },
-      {
-        "drug": "Dalfampridine",
-        "score": 7.085
-      },
-      {
-        "drug": "Valacyclovir",
-        "score": 6.94
-      }
-    ]
-  },
-  {
-    "patient_id": 40,
-    "condition": "Juvenile Rheumatoid Arthritis",
-    "recommendations": [
-      {
-        "drug": "Aleve",
-        "score": 2.999
-      },
-      {
-        "drug": "Naproxen",
-        "score": 2.999
-      }
-    ]
-  },
-  {
-    "patient_id": 41,
-    "condition": "Postoperative Ocular Inflammation",
-    "recommendations": [
-      {
-        "drug": "TobraDex",
-        "score": 5.849
-      }
-    ]
-  },
-  {
-    "patient_id": 42,
-    "condition": "Chronic Pain",
-    "recommendations": [
-      {
-        "drug": "Exalgo",
-        "score": 5.832
-      },
-      {
-        "drug": "MS Contin",
-        "score": 5.832
-      },
-      {
-        "drug": "Roxicodone",
-        "score": 5.832
-      },
-      {
-        "drug": "Fentora",
-        "score": 5.799
-      },
-      {
-        "drug": "Methadone Diskets",
-        "score": 5.799
-      }
-    ]
-  },
-  {
-    "patient_id": 43,
-    "condition": "COPD, Maintenance",
-    "recommendations": [
-      {
-        "drug": "Albuterol",
-        "score": 7.249
-      },
-      {
-        "drug": "Combivent Respimat",
-        "score": 7.249
-      },
-      {
-        "drug": "Symbicort",
-        "score": 7.249
-      },
-      {
-        "drug": "Ventolin HFA",
-        "score": 7.249
-      },
-      {
-        "drug": "Tiotropium",
-        "score": 6.619
-      }
-    ]
-  },
-  {
-    "patient_id": 44,
-    "condition": "Obesity",
-    "recommendations": [
-      {
-        "drug": "Belviq",
-        "score": 7.301
-      },
-      {
-        "drug": "Didrex",
-        "score": 7.249
-      },
-      {
-        "drug": "Fastin",
-        "score": 7.249
-      },
-      {
-        "drug": "Methamphetamine",
-        "score": 7.249
-      },
-      {
-        "drug": "Tenuate",
-        "score": 7.249
-      }
-    ]
-  },
-  {
-    "patient_id": 45,
-    "condition": "Menorrhagia",
-    "recommendations": [
-      {
-        "drug": "Tranexamic acid",
-        "score": 5.272
-      },
-      {
-        "drug": "Natazia",
-        "score": 2.439
-      },
-      {
-        "drug": "Dienogest / estradiol",
-        "score": 1.879
-      },
-      {
-        "drug": "Lysteda",
-        "score": 0.759
-      }
-    ]
-  },
-  {
-    "patient_id": 46,
-    "condition": "Bacterial Vaginitis",
-    "recommendations": [
-      {
-        "drug": "Tinidazole",
-        "score": 7.908
-      },
-      {
-        "drug": "Clindamycin",
-        "score": 7.151
-      },
-      {
-        "drug": "Metronidazole",
-        "score": 6.377
-      },
-      {
-        "drug": "Flagyl ER",
-        "score": 5.339
-      },
-      {
-        "drug": "MetroGel-Vaginal",
-        "score": 5.029
-      }
-    ]
-  },
-  {
-    "patient_id": 47,
-    "condition": "Atrophic Urethritis",
-    "recommendations": [
-      {
-        "drug": "Estrace Vaginal Cream",
-        "score": 2.868
-      }
-    ]
-  },
-  {
-    "patient_id": 48,
-    "condition": "Brain Tum",
-    "recommendations": [
-      {
-        "drug": "Cisplatin",
-        "score": 5.799
-      }
-    ]
-  },
-  {
-    "patient_id": 49,
-    "condition": "Not Listed / Othe",
-    "recommendations": [
-      {
-        "drug": "Benzoyl peroxide",
-        "score": 5.799
-      },
-      {
-        "drug": "Buprenorphine / naloxone",
-        "score": 5.799
-      },
-      {
-        "drug": "Lisinopril",
-        "score": 5.799
-      },
-      {
-        "drug": "Meloxicam",
-        "score": 5.799
-      },
-      {
-        "drug": "Oxycodone",
-        "score": 5.799
-      }
-    ]
-  },
-  {
-    "patient_id": 50,
-    "condition": "2</span> users found this comment helpful.",
-    "recommendations": [
-      {
-        "drug": "Alesse",
-        "score": 5.799
-      },
-      {
-        "drug": "Loestrin 24 Fe",
-        "score": 5.799
-      },
-      {
-        "drug": "Seasonique",
-        "score": 4.679
-      },
-      {
-        "drug": "Tri-Sprintec",
-        "score": 4.119
-      },
-      {
-        "drug": "Sprintec",
-        "score": 3.559
-      }
-    ]
-  },
-  {
-    "patient_id": 51,
-    "condition": "Herpes Simplex, Suppression",
-    "recommendations": [
-      {
-        "drug": "Lysine",
-        "score": 5.799
-      },
-      {
-        "drug": "Zovirax",
-        "score": 5.799
-      },
-      {
-        "drug": "Acyclovir",
-        "score": 5.239
-      },
-      {
-        "drug": "Valacyclovir",
-        "score": 4.095
-      },
-      {
-        "drug": "Valtrex",
-        "score": 3.988
-      }
-    ]
-  },
-  {
-    "patient_id": 52,
-    "condition": "Crohn's Disease",
-    "recommendations": [
-      {
-        "drug": "Cipro",
-        "score": 7.249
-      },
-      {
-        "drug": "Xifaxan",
-        "score": 7.249
-      },
-      {
-        "drug": "Adalimumab",
-        "score": 6.59
-      },
-      {
-        "drug": "Colazal",
-        "score": 5.849
-      },
-      {
-        "drug": "Imuran",
-        "score": 5.849
-      }
-    ]
-  },
-  {
-    "patient_id": 53,
-    "condition": "Urinary Incontinence",
-    "recommendations": [
-      {
-        "drug": "Cranberry",
-        "score": 5.799
-      },
-      {
-        "drug": "Sanctura",
-        "score": 5.799
-      },
-      {
-        "drug": "Trospium",
-        "score": 5.799
-      },
-      {
-        "drug": "VESIcare",
-        "score": 4.992
-      },
-      {
-        "drug": "Botox",
-        "score": 4.679
-      }
-    ]
-  },
-  {
-    "patient_id": 54,
-    "condition": "Arrhythmia",
-    "recommendations": [
-      {
-        "drug": "Norpace CR",
-        "score": 5.799
-      },
-      {
-        "drug": "Tikosyn",
-        "score": 5.239
-      },
-      {
-        "drug": "Cordarone",
-        "score": 4.679
-      },
-      {
-        "drug": "Amiodarone",
-        "score": 4.119
-      }
-    ]
-  },
-  {
-    "patient_id": 55,
-    "condition": "Atherosclerosis",
-    "recommendations": [
-      {
-        "drug": "Rosuvastatin",
-        "score": 5.849
-      }
-    ]
-  },
-  {
-    "patient_id": 56,
-    "condition": "Temporomandibular Joint Disorde",
-    "recommendations": [
-      {
-        "drug": "Piroxicam",
-        "score": 3.559
-      },
-      {
-        "drug": "Baclofen",
-        "score": 0.759
-      }
-    ]
-  },
-  {
-    "patient_id": 57,
-    "condition": "Hiccups",
-    "recommendations": [
-      {
-        "drug": "Chlorpromazine",
-        "score": 8.699
-      },
-      {
-        "drug": "Thorazine",
-        "score": 4.548
-      }
-    ]
-  },
-  {
-    "patient_id": 58,
-    "condition": "Prosthetic Heart Valves, Mechanical Valves - Thrombosis Prophylaxis",
-    "recommendations": [
-      {
-        "drug": "Warfarin",
-        "score": 7.249
-      }
-    ]
-  },
-  {
-    "patient_id": 59,
-    "condition": "Hypokalemia",
-    "recommendations": [
-      {
-        "drug": "Spironolactone",
-        "score": 5.239
-      }
-    ]
-  },
-  {
-    "patient_id": 60,
-    "condition": "Psychosis",
-    "recommendations": [
-      {
-        "drug": "Haloperidol",
-        "score": 7.488
-      },
-      {
-        "drug": "Thorazine",
-        "score": 1.139
-      }
-    ]
-  },
-  {
-    "patient_id": 61,
-    "condition": "Deep Vein Thrombosis, Recurrent Event",
-    "recommendations": [
-      {
-        "drug": "Xarelto",
-        "score": 1.139
-      }
-    ]
-  },
-  {
-    "patient_id": 62,
-    "condition": "Conjunctivitis, Allergic",
-    "recommendations": [
-      {
-        "drug": "Alcaftadine",
-        "score": 5.799
-      },
-      {
-        "drug": "Bepotastine",
-        "score": 5.799
-      },
-      {
-        "drug": "Ketotifen",
-        "score": 5.799
-      },
-      {
-        "drug": "Lastacaft",
-        "score": 5.799
-      },
-      {
-        "drug": "Pemirolast",
-        "score": 3.312
-      }
-    ]
-  },
-  {
-    "patient_id": 63,
-    "condition": "Dietary Supplementation",
-    "recommendations": [
-      {
-        "drug": "Ascorbic acid",
-        "score": 7.29
-      },
-      {
-        "drug": "Chondroitin / glucosamine",
-        "score": 7.249
-      },
-      {
-        "drug": "Multivitamin",
-        "score": 3.79
-      },
-      {
-        "drug": "Omega-3 polyunsaturated fatty acids",
-        "score": 3.79
-      },
-      {
-        "drug": "Biotin",
-        "score": 0.949
-      }
-    ]
-  },
-  {
-    "patient_id": 64,
-    "condition": "Constipation, Drug Induced",
-    "recommendations": [
-      {
-        "drug": "Methylnaltrexone",
-        "score": 5.388
-      },
-      {
-        "drug": "Movantik",
-        "score": 5.386
-      },
-      {
-        "drug": "Relistor",
-        "score": 4.968
-      },
-      {
-        "drug": "Naloxegol",
-        "score": 3.346
-      },
-      {
-        "drug": "Lubiprostone",
-        "score": 3.288
-      }
-    ]
-  },
-  {
-    "patient_id": 65,
-    "condition": "moterol)",
-    "recommendations": [
-      {
-        "drug": "Budesonide / formoterol",
-        "score": 5.832
-      }
-    ]
-  },
-  {
-    "patient_id": 66,
-    "condition": "Mountain Sickness / Altitude Sickness",
-    "recommendations": [
-      {
-        "drug": "Acetazolamide",
-        "score": 8.699
-      }
-    ]
-  },
-  {
-    "patient_id": 67,
-    "condition": "Allergic Rhinitis",
-    "recommendations": [
-      {
-        "drug": "Drixoral Cold and Allergy",
-        "score": 8.748
-      },
-      {
-        "drug": "Astelin",
-        "score": 8.699
-      },
-      {
-        "drug": "Dexbrompheniramine / pseudoephedrine",
-        "score": 8.699
-      },
-      {
-        "drug": "Flonase",
-        "score": 8.699
-      },
-      {
-        "drug": "Olopatadine",
-        "score": 8.699
-      }
-    ]
-  },
-  {
-    "patient_id": 68,
-    "condition": "Cyclic Vomiting Syndrome",
-    "recommendations": [
-      {
-        "drug": "Sumatriptan",
-        "score": 7.249
-      },
-      {
-        "drug": "Nortriptyline",
-        "score": 5.149
-      },
-      {
-        "drug": "Amitriptyline",
-        "score": 3.749
-      }
-    ]
-  },
-  {
-    "patient_id": 69,
-    "condition": "Irritable Bowel Syndrome",
-    "recommendations": [
-      {
-        "drug": "Hyoscyamine",
-        "score": 7.29
-      },
-      {
-        "drug": "Alosetron",
-        "score": 7.249
-      },
-      {
-        "drug": "Librax",
-        "score": 7.249
-      },
-      {
-        "drug": "Lotronex",
-        "score": 7.249
-      },
-      {
-        "drug": "Venlafaxine",
-        "score": 7.249
-      }
-    ]
-  },
-  {
-    "patient_id": 70,
-    "condition": "Ankylosing Spondylitis",
-    "recommendations": [
-      {
-        "drug": "Adalimumab",
-        "score": 8.699
-      },
-      {
-        "drug": "Humira",
-        "score": 8.699
-      },
-      {
-        "drug": "Enbrel",
-        "score": 8.222
-      },
-      {
-        "drug": "Etanercept",
-        "score": 5.449
-      },
-      {
-        "drug": "Cosentyx",
-        "score": 1.608
-      }
-    ]
-  },
-  {
-    "patient_id": 71,
-    "condition": "Agitation",
-    "recommendations": [
-      {
-        "drug": "Risperidone",
-        "score": 1.879
-      },
-      {
-        "drug": "Citalopram",
-        "score": 0.759
-      }
-    ]
-  },
-  {
-    "patient_id": 72,
-    "condition": "Tinnitus",
-    "recommendations": [
-      {
-        "drug": "Alprazolam",
-        "score": 5.552
-      }
-    ]
-  },
-  {
-    "patient_id": 73,
-    "condition": "Lactation Augmentation",
-    "recommendations": [
-      {
-        "drug": "Reglan",
-        "score": 3.032
-      }
-    ]
-  },
-  {
-    "patient_id": 74,
-    "condition": "Seizures",
-    "recommendations": [
-      {
-        "drug": "Keppra XR",
-        "score": 7.249
-      },
-      {
-        "drug": "Dilantin",
-        "score": 6.852
-      },
-      {
-        "drug": "Aptiom",
-        "score": 6.549
-      },
-      {
-        "drug": "Oxcarbazepine",
-        "score": 6.549
-      },
-      {
-        "drug": "Lacosamide",
-        "score": 6.24
-      }
-    ]
-  },
-  {
-    "patient_id": 75,
-    "condition": "acial Wrinkles",
-    "recommendations": [
-      {
-        "drug": "OnabotulinumtoxinA",
-        "score": 7.249
-      }
-    ]
-  },
-  {
-    "patient_id": 76,
-    "condition": "Labor Pain",
-    "recommendations": [
-      {
-        "drug": "Stadol",
-        "score": 5.799
-      }
-    ]
-  },
-  {
-    "patient_id": 77,
-    "condition": "Urinary Tract Infection",
-    "recommendations": [
-      {
-        "drug": "Cefixime",
-        "score": 7.249
-      },
-      {
-        "drug": "Hiprex",
-        "score": 7.249
-      },
-      {
-        "drug": "Bactrim DS",
-        "score": 5.54
-      },
-      {
-        "drug": "Cipro",
-        "score": 5.388
-      },
-      {
-        "drug": "Sulfamethoxazole / trimethoprim",
-        "score": 5.11
-      }
-    ]
-  },
-  {
-    "patient_id": 78,
-    "condition": "acial Wrinkles",
-    "recommendations": [
-      {
-        "drug": "OnabotulinumtoxinA",
-        "score": 5.799
-      }
-    ]
-  },
-  {
-    "patient_id": 79,
-    "condition": "Inflammatory Conditions",
-    "recommendations": [
-      {
-        "drug": "Mobic",
-        "score": 7.249
-      },
-      {
-        "drug": "Prednisone",
-        "score": 7.219
-      },
-      {
-        "drug": "Methylprednisolone",
-        "score": 6.612
-      },
-      {
-        "drug": "Meloxicam",
-        "score": 5.399
-      },
-      {
-        "drug": "Prednisolone",
-        "score": 5.149
-      }
-    ]
-  },
-  {
-    "patient_id": 80,
-    "condition": "Osteolytic Bone Metastases of Solid Tumors",
-    "recommendations": [
-      {
-        "drug": "Denosumab",
-        "score": 5.239
-      }
-    ]
-  },
-  {
-    "patient_id": 81,
-    "condition": "Light Anesthesia",
-    "recommendations": [
-      {
-        "drug": "Midazolam",
-        "score": 3.742
-      }
-    ]
-  },
-  {
-    "patient_id": 82,
-    "condition": "Immunosuppression",
-    "recommendations": [
-      {
-        "drug": "Prednisone",
-        "score": 5.239
-      }
-    ]
-  },
-  {
-    "patient_id": 83,
-    "condition": "25</span> users found this comment helpful.",
-    "recommendations": [
-      {
-        "drug": "Lo Loestrin Fe",
-        "score": 4.679
-      }
-    ]
-  },
-  {
-    "patient_id": 84,
     "condition": "Hemorrhoids",
     "recommendations": [
       {
         "drug": "Hydrocortisone / pramoxine",
-        "score": 5.799
+        "score": 6.319
       },
       {
         "drug": "Lidocaine",
-        "score": 5.799
+        "score": 6.319
       },
       {
         "drug": "Pramoxine",
-        "score": 5.799
+        "score": 6.319
       },
       {
         "drug": "Proctofoam HC",
-        "score": 5.239
-      }
-    ]
-  },
-  {
-    "patient_id": 85,
-    "condition": "Ovarian Cysts",
-    "recommendations": [
-      {
-        "drug": "Ortho Tri-Cyclen",
-        "score": 8.699
-      },
-      {
-        "drug": "Ethinyl estradiol / norgestimate",
-        "score": 6.079
-      },
-      {
-        "drug": "Seasonique",
-        "score": 5.339
-      },
-      {
-        "drug": "Sprintec",
-        "score": 4.548
-      },
-      {
-        "drug": "TriNessa",
-        "score": 1.139
-      }
-    ]
-  },
-  {
-    "patient_id": 86,
-    "condition": "Panic Disorde",
-    "recommendations": [
-      {
-        "drug": "Xanax",
-        "score": 5.9
-      },
-      {
-        "drug": "Klonopin",
-        "score": 5.733
-      },
-      {
-        "drug": "Alprazolam",
-        "score": 5.712
-      },
-      {
-        "drug": "Zoloft",
-        "score": 5.51
-      },
-      {
-        "drug": "Paxil",
-        "score": 5.327
-      }
-    ]
-  },
-  {
-    "patient_id": 87,
-    "condition": "Constipation, Acute",
-    "recommendations": [
-      {
-        "drug": "Polyethylene glycol 3350",
-        "score": 8.699
-      }
-    ]
-  },
-  {
-    "patient_id": 88,
-    "condition": "Amenorrhea",
-    "recommendations": [
-      {
-        "drug": "Provera",
-        "score": 7.249
-      },
-      {
-        "drug": "Progesterone",
-        "score": 4.449
-      },
-      {
-        "drug": "Medroxyprogesterone",
-        "score": 3.09
-      }
-    ]
-  },
-  {
-    "patient_id": 89,
-    "condition": "Nasal Congestion",
-    "recommendations": [
-      {
-        "drug": "Dexbrompheniramine / pseudoephedrine",
-        "score": 5.799
-      },
-      {
-        "drug": "Drixoral Cold and Allergy",
-        "score": 5.799
-      },
-      {
-        "drug": "Privine",
-        "score": 5.799
-      },
-      {
-        "drug": "Sudafed Congestion",
-        "score": 5.799
-      },
-      {
-        "drug": "Claritin-D",
-        "score": 5.552
-      }
-    ]
-  },
-  {
-    "patient_id": 90,
-    "condition": "Hypogonadism, Male",
-    "recommendations": [
-      {
-        "drug": "Aveed",
-        "score": 7.859
-      },
-      {
-        "drug": "AndroGel",
-        "score": 7.488
-      },
-      {
-        "drug": "Axiron",
-        "score": 7.382
-      },
-      {
-        "drug": "Testosterone",
-        "score": 7.207
-      },
-      {
-        "drug": "Testim",
         "score": 5.719
       }
     ]
   },
   {
-    "patient_id": 91,
+    "patient_id": 10,
+    "condition": "Gout, Acute",
+    "recommendations": [
+      {
+        "drug": "Colcrys",
+        "score": 7.582
+      },
+      {
+        "drug": "Indocin",
+        "score": 7.582
+      },
+      {
+        "drug": "Methylprednisolone",
+        "score": 7.582
+      },
+      {
+        "drug": "Indomethacin",
+        "score": 6.982
+      },
+      {
+        "drug": "Naproxen",
+        "score": 6.862
+      }
+    ]
+  },
+  {
+    "patient_id": 11,
+    "condition": "Pseudobulbar Affect",
+    "recommendations": [
+      {
+        "drug": "Dextromethorphan / quinidine",
+        "score": 5.8
+      }
+    ]
+  },
+  {
+    "patient_id": 12,
+    "condition": "COPD",
+    "recommendations": [
+      {
+        "drug": "Roflumilast",
+        "score": 7.776
+      },
+      {
+        "drug": "Aclidinium",
+        "score": 7.582
+      },
+      {
+        "drug": "Anoro Ellipta",
+        "score": 7.582
+      },
+      {
+        "drug": "Daliresp",
+        "score": 6.166
+      },
+      {
+        "drug": "Breo Ellipta",
+        "score": 4.894
+      }
+    ]
+  },
+  {
+    "patient_id": 13,
+    "condition": "Pe",
+    "recommendations": [
+      {
+        "drug": "Propranolol",
+        "score": 6.319
+      }
+    ]
+  },
+  {
+    "patient_id": 14,
+    "condition": "Myasthenia Gravis",
+    "recommendations": [
+      {
+        "drug": "Mycophenolate mofetil",
+        "score": 5.119
+      }
+    ]
+  },
+  {
+    "patient_id": 15,
+    "condition": "Precocious Puberty",
+    "recommendations": [
+      {
+        "drug": "Leuprolide",
+        "score": 6.6
+      },
+      {
+        "drug": "Lupron Depot-PED",
+        "score": 6.142
+      }
+    ]
+  },
+  {
+    "patient_id": 16,
+    "condition": "Herpes Zoste",
+    "recommendations": [
+      {
+        "drug": "Famciclovir",
+        "score": 3.982
+      }
+    ]
+  },
+  {
+    "patient_id": 17,
+    "condition": "Urinary Tract Stones",
+    "recommendations": [
+      {
+        "drug": "Tamsulosin",
+        "score": 5.719
+      }
+    ]
+  },
+  {
+    "patient_id": 18,
+    "condition": "Duodenal Ulce",
+    "recommendations": [
+      {
+        "drug": "Carafate",
+        "score": 6.319
+      },
+      {
+        "drug": "Sucralfate",
+        "score": 6.319
+      }
+    ]
+  },
+  {
+    "patient_id": 19,
+    "condition": "Generalized Anxiety Disorde",
+    "recommendations": [
+      {
+        "drug": "Paxil",
+        "score": 6.337
+      },
+      {
+        "drug": "Celexa",
+        "score": 6.319
+      },
+      {
+        "drug": "Cymbalta",
+        "score": 5.881
+      },
+      {
+        "drug": "Pregabalin",
+        "score": 5.731
+      },
+      {
+        "drug": "Seroquel",
+        "score": 5.719
+      }
+    ]
+  },
+  {
+    "patient_id": 20,
+    "condition": "Vitamin/Mineral Supplementation during Pregnancy/Lactation",
+    "recommendations": [
+      {
+        "drug": "Ferrous gluconate",
+        "score": 7.582
+      },
+      {
+        "drug": "Vitafol-OB+DHA",
+        "score": 7.582
+      },
+      {
+        "drug": "Multivitamin, prenatal",
+        "score": 7.269
+      }
+    ]
+  },
+  {
+    "patient_id": 21,
+    "condition": "Behcet's Disease",
+    "recommendations": [
+      {
+        "drug": "Infliximab",
+        "score": 5.719
+      }
+    ]
+  },
+  {
+    "patient_id": 22,
+    "condition": "Autoimmune Hemolytic Anemia",
+    "recommendations": [
+      {
+        "drug": "Prednisone",
+        "score": 5.719
+      }
+    ]
+  },
+  {
+    "patient_id": 23,
+    "condition": "Mountain Sickness / Altitude Sickness",
+    "recommendations": [
+      {
+        "drug": "Acetazolamide",
+        "score": 7.582
+      }
+    ]
+  },
+  {
+    "patient_id": 24,
+    "condition": "Herpes Simplex, Suppression",
+    "recommendations": [
+      {
+        "drug": "Lysine",
+        "score": 5.055
+      },
+      {
+        "drug": "Zovirax",
+        "score": 5.055
+      },
+      {
+        "drug": "Acyclovir",
+        "score": 4.575
+      },
+      {
+        "drug": "Valacyclovir",
+        "score": 3.768
+      },
+      {
+        "drug": "Valtrex",
+        "score": 3.639
+      }
+    ]
+  },
+  {
+    "patient_id": 25,
+    "condition": "Anxiety and Stress",
+    "recommendations": [
+      {
+        "drug": "Sertraline",
+        "score": 6.167
+      },
+      {
+        "drug": "Citalopram",
+        "score": 5.776
+      },
+      {
+        "drug": "Prozac",
+        "score": 5.579
+      },
+      {
+        "drug": "Effexor XR",
+        "score": 5.574
+      },
+      {
+        "drug": "Paxil",
+        "score": 5.384
+      }
+    ]
+  },
+  {
+    "patient_id": 26,
+    "condition": "Infection Prophylaxis",
+    "recommendations": [
+      {
+        "drug": "Sulfamethoxazole / trimethoprim",
+        "score": 5.719
+      }
+    ]
+  },
+  {
+    "patient_id": 27,
+    "condition": "Bulimia",
+    "recommendations": [
+      {
+        "drug": "Fluoxetine",
+        "score": 6.142
+      },
+      {
+        "drug": "Prozac",
+        "score": 5.88
+      }
+    ]
+  },
+  {
+    "patient_id": 28,
+    "condition": "Psoriasis",
+    "recommendations": [
+      {
+        "drug": "Taclonex",
+        "score": 5.23
+      },
+      {
+        "drug": "Elocon",
+        "score": 5.055
+      },
+      {
+        "drug": "Kenalog-10",
+        "score": 5.055
+      },
+      {
+        "drug": "Psoriasin",
+        "score": 5.055
+      },
+      {
+        "drug": "Triamcinolone",
+        "score": 5.055
+      }
+    ]
+  },
+  {
+    "patient_id": 29,
+    "condition": "Human Papillomavirus Prophylaxis",
+    "recommendations": [
+      {
+        "drug": "Gardasil",
+        "score": 3.882
+      },
+      {
+        "drug": "Human papillomavirus vaccine",
+        "score": 1.695
+      }
+    ]
+  },
+  {
+    "patient_id": 30,
+    "condition": "Hypoactive Sexual Desire Disorde",
+    "recommendations": [
+      {
+        "drug": "Flibanserin",
+        "score": 0.919
+      }
+    ]
+  },
+  {
+    "patient_id": 31,
+    "condition": "mance Anxiety",
+    "recommendations": [
+      {
+        "drug": "Propranolol",
+        "score": 5.108
+      }
+    ]
+  },
+  {
+    "patient_id": 32,
+    "condition": "Hepatitis C",
+    "recommendations": [
+      {
+        "drug": "Daclatasvir",
+        "score": 6.319
+      },
+      {
+        "drug": "Daklinza",
+        "score": 6.319
+      },
+      {
+        "drug": "Ledipasvir / sofosbuvir",
+        "score": 6.08
+      },
+      {
+        "drug": "Harvoni",
+        "score": 5.928
+      },
+      {
+        "drug": "Zepatier",
+        "score": 5.538
+      }
+    ]
+  },
+  {
+    "patient_id": 33,
+    "condition": "Crohn's Disease, Acute",
+    "recommendations": [
+      {
+        "drug": "Flagyl",
+        "score": 4.575
+      },
+      {
+        "drug": "Infliximab",
+        "score": 2.96
+      },
+      {
+        "drug": "Remicade",
+        "score": 2.655
+      }
+    ]
+  },
+  {
+    "patient_id": 34,
+    "condition": "15</span> users found this comment helpful.",
+    "recommendations": [
+      {
+        "drug": "Flexeril",
+        "score": 0.919
+      },
+      {
+        "drug": "Rogaine",
+        "score": 0.919
+      }
+    ]
+  },
+  {
+    "patient_id": 35,
+    "condition": "Psoriatic Arthritis",
+    "recommendations": [
+      {
+        "drug": "Methotrexate",
+        "score": 6.319
+      },
+      {
+        "drug": "Remicade",
+        "score": 6.319
+      },
+      {
+        "drug": "Stelara",
+        "score": 5.719
+      },
+      {
+        "drug": "Adalimumab",
+        "score": 5.303
+      },
+      {
+        "drug": "Etanercept",
+        "score": 4.036
+      }
+    ]
+  },
+  {
+    "patient_id": 36,
+    "condition": "ADHD",
+    "recommendations": [
+      {
+        "drug": "Adderall",
+        "score": 5.109
+      },
+      {
+        "drug": "Desoxyn",
+        "score": 5.055
+      },
+      {
+        "drug": "Methamphetamine",
+        "score": 5.055
+      },
+      {
+        "drug": "Daytrana",
+        "score": 5.021
+      },
+      {
+        "drug": "Dextroamphetamine",
+        "score": 5.005
+      }
+    ]
+  },
+  {
+    "patient_id": 37,
+    "condition": "Cystic Fibrosis",
+    "recommendations": [
+      {
+        "drug": "Advil",
+        "score": 7.582
+      }
+    ]
+  },
+  {
+    "patient_id": 38,
+    "condition": "Sjogren's Syndrome",
+    "recommendations": [
+      {
+        "drug": "Evening Primrose Oil",
+        "score": 7.582
+      },
+      {
+        "drug": "Hydroxychloroquine",
+        "score": 4.869
+      },
+      {
+        "drug": "Infliximab",
+        "score": 3.982
+      },
+      {
+        "drug": "Cevimeline",
+        "score": 1.102
+      }
+    ]
+  },
+  {
+    "patient_id": 39,
+    "condition": "Aphthous Ulce",
+    "recommendations": [
+      {
+        "drug": "Triamcinolone",
+        "score": 5.055
+      },
+      {
+        "drug": "Orajel",
+        "score": 3.615
+      }
+    ]
+  },
+  {
+    "patient_id": 40,
+    "condition": "Left Ventricular Dysfunction",
+    "recommendations": [
+      {
+        "drug": "Enalapril",
+        "score": 1.102
+      }
+    ]
+  },
+  {
+    "patient_id": 41,
+    "condition": "Paget's Disease",
+    "recommendations": [
+      {
+        "drug": "Zometa",
+        "score": 5.055
+      }
+    ]
+  },
+  {
+    "patient_id": 42,
+    "condition": "Inflammatory Bowel Disease",
+    "recommendations": [
+      {
+        "drug": "Budesonide",
+        "score": 5.119
+      }
+    ]
+  },
+  {
+    "patient_id": 43,
+    "condition": "Anxiety and Stress",
+    "recommendations": [
+      {
+        "drug": "Sertraline",
+        "score": 7.4
+      },
+      {
+        "drug": "Citalopram",
+        "score": 6.931
+      },
+      {
+        "drug": "Prozac",
+        "score": 6.695
+      },
+      {
+        "drug": "Effexor XR",
+        "score": 6.689
+      },
+      {
+        "drug": "Paxil",
+        "score": 6.46
+      }
+    ]
+  },
+  {
+    "patient_id": 44,
+    "condition": "Cough and Nasal Congestion",
+    "recommendations": [
+      {
+        "drug": "Chlorpheniramine / hydrocodone / pseudoephedrine",
+        "score": 5.182
+      },
+      {
+        "drug": "Dextromethorphan / guaifenesin / pseudoephedrine",
+        "score": 5.055
+      },
+      {
+        "drug": "Guaifenesin / pseudoephedrine",
+        "score": 4.385
+      },
+      {
+        "drug": "Hydrocodone / pseudoephedrine",
+        "score": 3.984
+      },
+      {
+        "drug": "Mucinex D",
+        "score": 3.089
+      }
+    ]
+  },
+  {
+    "patient_id": 45,
+    "condition": "Cervical Dystonia",
+    "recommendations": [
+      {
+        "drug": "OnabotulinumtoxinA",
+        "score": 5.98
+      },
+      {
+        "drug": "Baclofen",
+        "score": 5.617
+      },
+      {
+        "drug": "Lioresal",
+        "score": 5.422
+      },
+      {
+        "drug": "Botox",
+        "score": 4.489
+      }
+    ]
+  },
+  {
+    "patient_id": 46,
+    "condition": "Allergic Reactions",
+    "recommendations": [
+      {
+        "drug": "Prednisone",
+        "score": 6.481
+      },
+      {
+        "drug": "Triamcinolone",
+        "score": 6.319
+      },
+      {
+        "drug": "Chlorpheniramine",
+        "score": 5.719
+      },
+      {
+        "drug": "Diphenhydramine",
+        "score": 5.281
+      },
+      {
+        "drug": "Benadryl",
+        "score": 3.919
+      }
+    ]
+  },
+  {
+    "patient_id": 47,
+    "condition": "Psychosis",
+    "recommendations": [
+      {
+        "drug": "Haloperidol",
+        "score": 4.4
+      },
+      {
+        "drug": "Thorazine",
+        "score": 0.735
+      }
+    ]
+  },
+  {
+    "patient_id": 48,
+    "condition": "Tinea Pedis",
+    "recommendations": [
+      {
+        "drug": "Lamisil",
+        "score": 6.319
+      },
+      {
+        "drug": "Terbinafine",
+        "score": 6.319
+      }
+    ]
+  },
+  {
+    "patient_id": 49,
+    "condition": "Anesthesia",
+    "recommendations": [
+      {
+        "drug": "Propofol",
+        "score": 6.404
+      },
+      {
+        "drug": "Fentanyl",
+        "score": 6.319
+      },
+      {
+        "drug": "Lidocaine / prilocaine",
+        "score": 6.319
+      },
+      {
+        "drug": "Sublimaze",
+        "score": 0.919
+      }
+    ]
+  },
+  {
+    "patient_id": 50,
+    "condition": "Insomnia, Stimulant-Associated",
+    "recommendations": [
+      {
+        "drug": "Clonidine",
+        "score": 6.549
+      }
+    ]
+  },
+  {
+    "patient_id": 51,
+    "condition": "Cluster Headaches",
+    "recommendations": [
+      {
+        "drug": "Verapamil",
+        "score": 7.73
+      },
+      {
+        "drug": "Cafergot",
+        "score": 7.582
+      },
+      {
+        "drug": "Sumavel DosePro",
+        "score": 7.582
+      },
+      {
+        "drug": "Sumatriptan",
+        "score": 7.428
+      },
+      {
+        "drug": "Indomethacin",
+        "score": 6.862
+      }
+    ]
+  },
+  {
+    "patient_id": 52,
+    "condition": "Human Papillomavirus Prophylaxis",
+    "recommendations": [
+      {
+        "drug": "Gardasil",
+        "score": 4.852
+      },
+      {
+        "drug": "Human papillomavirus vaccine",
+        "score": 2.119
+      }
+    ]
+  },
+  {
+    "patient_id": 53,
+    "condition": "Prevention of Thromboembolism in Atrial Fibrillation",
+    "recommendations": [
+      {
+        "drug": "Pradaxa",
+        "score": 5.719
+      },
+      {
+        "drug": "Dabigatran",
+        "score": 4.981
+      },
+      {
+        "drug": "Eliquis",
+        "score": 4.683
+      },
+      {
+        "drug": "Apixaban",
+        "score": 3.942
+      }
+    ]
+  },
+  {
+    "patient_id": 54,
+    "condition": "Herpes Zoste",
+    "recommendations": [
+      {
+        "drug": "Famciclovir",
+        "score": 3.982
+      }
+    ]
+  },
+  {
+    "patient_id": 55,
+    "condition": "Herpes Simplex",
+    "recommendations": [
+      {
+        "drug": "Lysine",
+        "score": 6.319
+      },
+      {
+        "drug": "Acyclovir",
+        "score": 6.293
+      },
+      {
+        "drug": "Allantoin / camphor / phenol",
+        "score": 5.119
+      },
+      {
+        "drug": "Docosanol",
+        "score": 3.869
+      },
+      {
+        "drug": "Abreva",
+        "score": 3.587
+      }
+    ]
+  },
+  {
+    "patient_id": 56,
+    "condition": "Enterocolitis",
+    "recommendations": [
+      {
+        "drug": "Chlordiazepoxide / clidinium",
+        "score": 6.319
+      }
+    ]
+  },
+  {
+    "patient_id": 57,
+    "condition": "Helicobacter Pylori Infection",
+    "recommendations": [
+      {
+        "drug": "Pylera",
+        "score": 5.055
+      },
+      {
+        "drug": "Amoxicillin / clarithromycin / lansoprazole",
+        "score": 4.597
+      },
+      {
+        "drug": "Prevpac",
+        "score": 3.959
+      },
+      {
+        "drug": "Flagyl",
+        "score": 3.615
+      },
+      {
+        "drug": "Bismuth subcitrate potassium / metronidazole / tetracycline",
+        "score": 3.028
+      }
+    ]
+  },
+  {
+    "patient_id": 58,
+    "condition": "Migraine Prevention",
+    "recommendations": [
+      {
+        "drug": "Elavil",
+        "score": 5.182
+      },
+      {
+        "drug": "Atenolol",
+        "score": 5.055
+      },
+      {
+        "drug": "Calan SR",
+        "score": 5.055
+      },
+      {
+        "drug": "Inderal",
+        "score": 5.055
+      },
+      {
+        "drug": "Lisinopril",
+        "score": 5.055
+      }
+    ]
+  },
+  {
+    "patient_id": 59,
+    "condition": "Local Anesthesia",
+    "recommendations": [
+      {
+        "drug": "Bupivacaine",
+        "score": 7.582
+      },
+      {
+        "drug": "Mepivacaine",
+        "score": 6.142
+      }
+    ]
+  },
+  {
+    "patient_id": 60,
+    "condition": "Herpes Simplex, Suppression",
+    "recommendations": [
+      {
+        "drug": "Lysine",
+        "score": 7.582
+      },
+      {
+        "drug": "Zovirax",
+        "score": 7.582
+      },
+      {
+        "drug": "Acyclovir",
+        "score": 6.862
+      },
+      {
+        "drug": "Valacyclovir",
+        "score": 5.652
+      },
+      {
+        "drug": "Valtrex",
+        "score": 5.458
+      }
+    ]
+  },
+  {
+    "patient_id": 61,
+    "condition": "Glioblastoma Multiforme",
+    "recommendations": [
+      {
+        "drug": "Avastin",
+        "score": 3.68
+      }
+    ]
+  },
+  {
+    "patient_id": 62,
+    "condition": "Lipodystrophy",
+    "recommendations": [
+      {
+        "drug": "Tesamorelin",
+        "score": 5.119
+      }
+    ]
+  },
+  {
+    "patient_id": 63,
+    "condition": "Hepatitis C",
+    "recommendations": [
+      {
+        "drug": "Daclatasvir",
+        "score": 7.582
+      },
+      {
+        "drug": "Daklinza",
+        "score": 7.582
+      },
+      {
+        "drug": "Ledipasvir / sofosbuvir",
+        "score": 7.296
+      },
+      {
+        "drug": "Harvoni",
+        "score": 7.113
+      },
+      {
+        "drug": "Zepatier",
+        "score": 6.646
+      }
+    ]
+  },
+  {
+    "patient_id": 64,
+    "condition": "High Cholesterol",
+    "recommendations": [
+      {
+        "drug": "Welchol",
+        "score": 7.765
+      },
+      {
+        "drug": "Pravachol",
+        "score": 7.762
+      },
+      {
+        "drug": "Alirocumab",
+        "score": 7.582
+      },
+      {
+        "drug": "Pitavastatin",
+        "score": 7.582
+      },
+      {
+        "drug": "Repatha",
+        "score": 7.582
+      }
+    ]
+  },
+  {
+    "patient_id": 65,
+    "condition": "Bacterial Infection",
+    "recommendations": [
+      {
+        "drug": "Amoxicillin",
+        "score": 7.763
+      },
+      {
+        "drug": "Augmentin",
+        "score": 7.582
+      },
+      {
+        "drug": "Cephalexin",
+        "score": 6.862
+      },
+      {
+        "drug": "Cipro",
+        "score": 6.862
+      },
+      {
+        "drug": "Vancomycin",
+        "score": 6.862
+      }
+    ]
+  },
+  {
+    "patient_id": 66,
+    "condition": "Vaginal Yeast Infection",
+    "recommendations": [
+      {
+        "drug": "Acidophilus",
+        "score": 6.319
+      },
+      {
+        "drug": "Fluconazole",
+        "score": 4.795
+      },
+      {
+        "drug": "Diflucan",
+        "score": 3.48
+      },
+      {
+        "drug": "Tioconazole",
+        "score": 3.293
+      },
+      {
+        "drug": "Miconazole",
+        "score": 2.822
+      }
+    ]
+  },
+  {
+    "patient_id": 67,
+    "condition": "Postpartum Depression",
+    "recommendations": [
+      {
+        "drug": "Paxil",
+        "score": 6.319
+      },
+      {
+        "drug": "Sertraline",
+        "score": 5.719
+      },
+      {
+        "drug": "Celexa",
+        "score": 4.519
+      },
+      {
+        "drug": "Venlafaxine",
+        "score": 3.919
+      }
+    ]
+  },
+  {
+    "patient_id": 68,
+    "condition": "Chronic Fatigue Syndrome",
+    "recommendations": [
+      {
+        "drug": "Armodafinil",
+        "score": 3.79
+      },
+      {
+        "drug": "Modafinil",
+        "score": 3.748
+      },
+      {
+        "drug": "Provigil",
+        "score": 1.519
+      }
+    ]
+  },
+  {
+    "patient_id": 69,
+    "condition": "Pulmonary Hypertension",
+    "recommendations": [
+      {
+        "drug": "Tyvaso",
+        "score": 6.862
+      },
+      {
+        "drug": "Tadalafil",
+        "score": 1.102
+      }
+    ]
+  },
+  {
+    "patient_id": 70,
+    "condition": "Seizures",
+    "recommendations": [
+      {
+        "drug": "Keppra XR",
+        "score": 5.055
+      },
+      {
+        "drug": "Dilantin",
+        "score": 4.909
+      },
+      {
+        "drug": "Aptiom",
+        "score": 4.575
+      },
+      {
+        "drug": "Oxcarbazepine",
+        "score": 4.575
+      },
+      {
+        "drug": "Levetiracetam",
+        "score": 4.519
+      }
+    ]
+  },
+  {
+    "patient_id": 71,
+    "condition": "Dermatomyositis",
+    "recommendations": [
+      {
+        "drug": "Plaquenil",
+        "score": 4.88
+      }
+    ]
+  },
+  {
+    "patient_id": 72,
+    "condition": "14</span> users found this comment helpful.",
+    "recommendations": [
+      {
+        "drug": "Linzess",
+        "score": 3.135
+      }
+    ]
+  },
+  {
+    "patient_id": 73,
+    "condition": "Bronchitis",
+    "recommendations": [
+      {
+        "drug": "Augmentin",
+        "score": 5.055
+      },
+      {
+        "drug": "Rocephin",
+        "score": 5.055
+      },
+      {
+        "drug": "Guaifenesin",
+        "score": 4.927
+      },
+      {
+        "drug": "Levofloxacin",
+        "score": 4.456
+      },
+      {
+        "drug": "Mucinex",
+        "score": 3.975
+      }
+    ]
+  },
+  {
+    "patient_id": 74,
+    "condition": "Dyspareunia",
+    "recommendations": [
+      {
+        "drug": "Osphena",
+        "score": 4.095
+      }
+    ]
+  },
+  {
+    "patient_id": 75,
+    "condition": "Chlamydia Infection",
+    "recommendations": [
+      {
+        "drug": "Doxycycline",
+        "score": 5.055
+      },
+      {
+        "drug": "Azithromycin",
+        "score": 4.382
+      }
+    ]
+  },
+  {
+    "patient_id": 76,
+    "condition": "Post-Cholecystectomy Diarrhea",
+    "recommendations": [
+      {
+        "drug": "Cholestyramine",
+        "score": 4.64
+      }
+    ]
+  },
+  {
+    "patient_id": 77,
+    "condition": "moterol / mometasone)",
+    "recommendations": [
+      {
+        "drug": "Formoterol / mometasone",
+        "score": 3.086
+      }
+    ]
+  },
+  {
+    "patient_id": 78,
+    "condition": "Influenza",
+    "recommendations": [
+      {
+        "drug": "Tamiflu",
+        "score": 7.144
+      },
+      {
+        "drug": "Oseltamivir",
+        "score": 6.04
+      }
+    ]
+  },
+  {
+    "patient_id": 79,
+    "condition": "Motion Sickness",
+    "recommendations": [
+      {
+        "drug": "Dramamine",
+        "score": 6.862
+      },
+      {
+        "drug": "Transderm-Scop",
+        "score": 6.6
+      },
+      {
+        "drug": "Dimenhydrinate",
+        "score": 1.102
+      }
+    ]
+  },
+  {
+    "patient_id": 80,
+    "condition": "Bowel Preparation",
+    "recommendations": [
+      {
+        "drug": "Polyethylene glycol 3350",
+        "score": 5.055
+      },
+      {
+        "drug": "Suprep Bowel Prep Kit",
+        "score": 4.595
+      },
+      {
+        "drug": "GoLYTELY",
+        "score": 4.575
+      },
+      {
+        "drug": "Magnesium sulfate / potassium sulfate / sodium sulfate",
+        "score": 4.317
+      },
+      {
+        "drug": "MoviPrep",
+        "score": 3.733
+      }
+    ]
+  },
+  {
+    "patient_id": 81,
+    "condition": "Ovarian Cysts",
+    "recommendations": [
+      {
+        "drug": "Ortho Tri-Cyclen",
+        "score": 5.055
+      },
+      {
+        "drug": "Ethinyl estradiol / norgestimate",
+        "score": 3.714
+      },
+      {
+        "drug": "Seasonique",
+        "score": 3.135
+      },
+      {
+        "drug": "Sprintec",
+        "score": 2.792
+      },
+      {
+        "drug": "TriNessa",
+        "score": 0.735
+      }
+    ]
+  },
+  {
+    "patient_id": 82,
+    "condition": "Hashimoto's disease",
+    "recommendations": [
+      {
+        "drug": "Synthroid",
+        "score": 6.319
+      },
+      {
+        "drug": "Thyroid desiccated",
+        "score": 5.5
+      },
+      {
+        "drug": "Armour Thyroid",
+        "score": 5.119
+      },
+      {
+        "drug": "Tirosint",
+        "score": 4.519
+      },
+      {
+        "drug": "NP Thyroid",
+        "score": 3.319
+      }
+    ]
+  },
+  {
+    "patient_id": 83,
+    "condition": "Sciatica",
+    "recommendations": [
+      {
+        "drug": "Arthrotec",
+        "score": 6.862
+      },
+      {
+        "drug": "Naprelan",
+        "score": 6.862
+      },
+      {
+        "drug": "Voltaren",
+        "score": 6.343
+      },
+      {
+        "drug": "Flexeril",
+        "score": 6.142
+      },
+      {
+        "drug": "Naproxen",
+        "score": 5.212
+      }
+    ]
+  },
+  {
+    "patient_id": 84,
+    "condition": "Head Lice",
+    "recommendations": [
+      {
+        "drug": "Spinosad",
+        "score": 5.055
+      },
+      {
+        "drug": "Ivermectin",
+        "score": 3.726
+      },
+      {
+        "drug": "Permethrin",
+        "score": 3.615
+      },
+      {
+        "drug": "Sklice",
+        "score": 2.655
+      }
+    ]
+  },
+  {
+    "patient_id": 85,
+    "condition": "Infection Prophylaxis",
+    "recommendations": [
+      {
+        "drug": "Sulfamethoxazole / trimethoprim",
+        "score": 5.719
+      }
+    ]
+  },
+  {
+    "patient_id": 86,
+    "condition": "Neuralgia",
+    "recommendations": [
+      {
+        "drug": "Lyrica",
+        "score": 7.189
+      },
+      {
+        "drug": "Nortriptyline",
+        "score": 7.136
+      },
+      {
+        "drug": "Pregabalin",
+        "score": 6.142
+      }
+    ]
+  },
+  {
+    "patient_id": 87,
+    "condition": "Postpartum Depression",
+    "recommendations": [
+      {
+        "drug": "Paxil",
+        "score": 6.319
+      },
+      {
+        "drug": "Sertraline",
+        "score": 5.719
+      },
+      {
+        "drug": "Celexa",
+        "score": 4.519
+      },
+      {
+        "drug": "Venlafaxine",
+        "score": 3.919
+      }
+    ]
+  },
+  {
+    "patient_id": 88,
+    "condition": "Hypothyroidism, After Thyroid Removal",
+    "recommendations": [
+      {
+        "drug": "Armour Thyroid",
+        "score": 6.319
+      },
+      {
+        "drug": "Cytomel",
+        "score": 6.319
+      },
+      {
+        "drug": "Levothyroxine",
+        "score": 5.947
+      },
+      {
+        "drug": "Synthroid",
+        "score": 5.548
+      },
+      {
+        "drug": "Tirosint",
+        "score": 4.086
+      }
+    ]
+  },
+  {
+    "patient_id": 89,
     "condition": "Heart Failure",
     "recommendations": [
       {
         "drug": "Digoxin",
-        "score": 8.699
+        "score": 5.055
       },
       {
         "drug": "Hydralazine / isosorbide dinitrate",
-        "score": 7.859
+        "score": 4.575
       },
       {
         "drug": "Carvedilol",
-        "score": 7.488
+        "score": 4.467
       },
       {
         "drug": "Amlodipine",
-        "score": 6.179
+        "score": 3.615
       },
       {
         "drug": "Sacubitril / valsartan",
-        "score": 4.582
+        "score": 2.833
+      }
+    ]
+  },
+  {
+    "patient_id": 90,
+    "condition": "Acute Coronary Syndrome",
+    "recommendations": [
+      {
+        "drug": "Effient",
+        "score": 5.719
+      },
+      {
+        "drug": "Brilinta",
+        "score": 4.519
+      }
+    ]
+  },
+  {
+    "patient_id": 91,
+    "condition": "Tourette's Syndrome",
+    "recommendations": [
+      {
+        "drug": "Olanzapine",
+        "score": 4.575
+      },
+      {
+        "drug": "Topamax",
+        "score": 3.615
+      },
+      {
+        "drug": "Guanfacine",
+        "score": 1.215
       }
     ]
   },
   {
     "patient_id": 92,
-    "condition": "Glaucoma",
+    "condition": "Labor Induction",
     "recommendations": [
       {
-        "drug": "Combigan",
-        "score": 5.849
-      },
-      {
-        "drug": "Acetazolamide",
-        "score": 3.79
+        "drug": "Cervidil",
+        "score": 1.102
       }
     ]
   },
   {
     "patient_id": 93,
-    "condition": "Gouty Arthritis",
+    "condition": "moterol)",
     "recommendations": [
       {
-        "drug": "Prednisone",
-        "score": 5.593
+        "drug": "Budesonide / formoterol",
+        "score": 5.12
       }
     ]
   },
   {
     "patient_id": 94,
-    "condition": "Atherosclerosis",
+    "condition": "Conjunctivitis",
     "recommendations": [
       {
-        "drug": "Rosuvastatin",
-        "score": 5.849
+        "drug": "Gatifloxacin",
+        "score": 4.095
       }
     ]
   },
   {
     "patient_id": 95,
-    "condition": "Sedation",
+    "condition": "Pseudotumor Cerebri",
     "recommendations": [
       {
-        "drug": "Trazodone",
-        "score": 5.313
+        "drug": "Acetazolamide",
+        "score": 4.709
       },
       {
-        "drug": "Promethazine",
-        "score": 4.679
-      },
-      {
-        "drug": "Lorazepam Intensol",
-        "score": 4.119
-      },
-      {
-        "drug": "Somnote",
-        "score": 1.319
-      },
-      {
-        "drug": "Hydroxyzine",
-        "score": 0.759
+        "drug": "Diamox",
+        "score": 0.869
       }
     ]
   },
   {
     "patient_id": 96,
-    "condition": "Malaria Prevention",
+    "condition": "Undifferentiated Connective Tissue Disease",
     "recommendations": [
       {
-        "drug": "Lariam",
-        "score": 5.799
-      },
-      {
-        "drug": "Mefloquine",
-        "score": 0.759
+        "drug": "Hydroxychloroquine",
+        "score": 0.735
       }
     ]
   },
   {
     "patient_id": 97,
-    "condition": "Juvenile Idiopathic Arthritis",
+    "condition": "atigue",
     "recommendations": [
       {
-        "drug": "Remicade",
-        "score": 7.859
+        "drug": "Methylphenidate",
+        "score": 4.519
+      },
+      {
+        "drug": "Amphetamine / dextroamphetamine",
+        "score": 3.919
+      },
+      {
+        "drug": "Modafinil",
+        "score": 3.919
       }
     ]
   },
   {
     "patient_id": 98,
-    "condition": "Diabetic Peripheral Neuropathy",
+    "condition": "Juvenile Idiopathic Arthritis",
     "recommendations": [
       {
-        "drug": "Gabapentin",
-        "score": 8.699
-      },
-      {
-        "drug": "Nucynta ER",
-        "score": 8.699
-      },
-      {
-        "drug": "Lyrica",
-        "score": 7.488
-      },
-      {
-        "drug": "Cymbalta",
-        "score": 7.151
-      },
-      {
-        "drug": "Duloxetine",
-        "score": 7.019
+        "drug": "Remicade",
+        "score": 4.575
       }
     ]
   },
   {
     "patient_id": 99,
-    "condition": "Breast Cancer, Metastatic",
+    "condition": "Psoriatic Arthritis",
     "recommendations": [
       {
-        "drug": "Trastuzumab",
-        "score": 5.799
+        "drug": "Methotrexate",
+        "score": 7.582
       },
       {
-        "drug": "Letrozole",
-        "score": 5.239
+        "drug": "Remicade",
+        "score": 7.582
       },
       {
-        "drug": "Xeloda",
-        "score": 5.239
+        "drug": "Stelara",
+        "score": 6.862
       },
       {
-        "drug": "Paclitaxel",
-        "score": 2.999
+        "drug": "Adalimumab",
+        "score": 6.364
+      },
+      {
+        "drug": "Etanercept",
+        "score": 4.843
       }
     ]
   }

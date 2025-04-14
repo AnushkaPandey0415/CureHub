@@ -9,17 +9,23 @@ def evaluate(test_df, model):
     n = min(1000, len(test_df))
 
     for _, row in test_df.sample(n, random_state=42).iterrows():
-        condition = row['condition']
-        actual_drug = row['drugName']
+        condition = row['condition'].strip().lower()
+        actual_drug = str(row['drugName']).strip().lower()
 
-        candidates = model['drug_scores'][model['drug_scores']['condition'] == condition]
+        candidates = model['drug_scores']
+        candidates = candidates[candidates['condition'].str.strip().str.lower() == condition]
+
         if candidates.empty:
             continue
 
-        top_drugs = candidates.nlargest(TOP_N, 'score')['drugName'].tolist()
+        top_drugs = candidates.nlargest(TOP_N, 'score')['drugName'].str.strip().str.lower().tolist()
         if actual_drug in top_drugs:
             hits += 1
             rank = top_drugs.index(actual_drug) + 1
             mrr += 1 / rank
 
-    return {'hit_rate': hits / n, 'mrr': mrr / n, 'evaluated': n}
+    return {
+        'hit_rate': hits / n,
+        'mrr': mrr / n,
+        'evaluated': n
+    }

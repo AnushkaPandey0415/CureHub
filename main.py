@@ -14,13 +14,21 @@ def main():
     logger.info("Starting recommendation pipeline...")
 
     try:
+        # Load and embed data
         train_df, test_df, patient_df = load_data()
         train_emb, tfidf = create_embeddings(train_df)
         patient_emb, _ = create_embeddings(patient_df)
+
+        # Train model using embedded data
         model = train_model(train_df, train_emb)
+
+        # Generate recommendations with updated embeddings
         recommendations = recommend(patient_df, model, patient_emb, tfidf)
+
+        # Evaluate performance
         metrics = evaluate(test_df, model)
 
+        # Save recommendations
         with open(os.path.join(RESULTS_DIR, "recommendations.json"), 'w') as f:
             json.dump(recommendations, f, indent=2)
 
@@ -32,6 +40,7 @@ def main():
             'recommendations': recommendations,
             'elapsed': elapsed
         }
+
     except Exception as e:
         logger.error(f"Pipeline failed: {str(e)}")
         raise

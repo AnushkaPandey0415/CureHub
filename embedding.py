@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
-from config import EMBEDDINGS_DIR, MODEL_NAME
+from config import EMBEDDINGS_DIR, MODEL_NAME, EMB_WEIGHT, TFIDF_WEIGHT
 from logger import logger
 
 def create_embeddings(df, column='text'):
@@ -14,13 +14,18 @@ def create_embeddings(df, column='text'):
         with open(cache_file, 'rb') as f:
             return pickle.load(f)
 
-    logger.info(f"Creating embeddings for {column}...")
+    logger.info(f"Creating embeddings for {column} using model {MODEL_NAME}...")
     model = SentenceTransformer(MODEL_NAME)
     tfidf = TfidfVectorizer(max_features=1000)
 
-    embeddings = model.encode(df[column].tolist(), batch_size=64, show_progress_bar=True)
-    tfidf_matrix = tfidf.fit_transform(df[column]).toarray()
-    combined = np.hstack([embeddings * 0.6, tfidf_matrix * 0.4])
+    texts = df[column].tolist()
+    embeddings = model.encode(texts, batch_size=64, show_progress_bar=True)
+    tfidf_matrix = tfidf.fit_transform(texts).toarray()
+
+    combined = np.hstack([
+        embeddings * EMB_WEIGHT,
+        tfidf_matrix * TFIDF_WEIGHT
+    ])
 
     with open(cache_file, 'wb') as f:
         pickle.dump((combined, tfidf), f)

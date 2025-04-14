@@ -2,7 +2,10 @@ import os
 import numpy as np
 import pandas as pd
 import pickle
-from config import DATA_DIR, EMBEDDINGS_DIR, SAMPLE_SIZE
+from config import (
+    DATA_DIR, EMBEDDINGS_DIR, SAMPLE_SIZE,
+    RECENCY_REFERENCE_DATE, MAX_RECENCY_YEARS
+)
 from logger import logger
 
 def load_data():
@@ -36,20 +39,23 @@ def load_data():
         })
     else:
         logger.info("Loading real data...")
-        train_df = pd.read_csv(train_path).sample(SAMPLE_SIZE, random_state=42)
-        test_df = pd.read_csv(test_path).sample(SAMPLE_SIZE // 10, random_state=42)
+        train_df = pd.read_csv(train_path).sample(SAMPLE_SIZE, random_state=42).reset_index(drop=True)
+        test_df = pd.read_csv(test_path).sample(SAMPLE_SIZE // 10, random_state=42).reset_index(drop=True)
         patient_df = pd.DataFrame({
             'patient_id': range(100),
             'condition': np.random.choice(train_df['condition'].dropna().unique(), 100),
             'severity': np.random.choice(['Mild', 'Moderate', 'Severe'], 100)
         })
 
+    reference_date = pd.Timestamp(RECENCY_REFERENCE_DATE)
+    max_days = MAX_RECENCY_YEARS * 365
+
     for df in [train_df, test_df]:
         df.fillna({'condition': '', 'review': '', 'drugName': ''}, inplace=True)
         df['text'] = (df['condition'] + " " + df['review']).str.lower().replace(r'[^a-z\s]', '', regex=True)
         df['rating'] = pd.to_numeric(df['rating'], errors='coerce').fillna(5.0)
         df['date'] = pd.to_datetime(df['date'], format='%B %d, %Y', errors='coerce')
-        df['recency'] = (pd.Timestamp('2025-01-01') - df['date']).dt.days.fillna(365).clip(0, 3650) / 3650
+        df['recency'] = (reference_date - df['date']).dt.days.fillna(365).clip(0, max_days) / max_days
 
     patient_df['text'] = patient_df['condition'].str.lower().replace(r'[^a-z\s]', '', regex=True)
 
