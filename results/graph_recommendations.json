@@ -4,24 +4,24 @@
     "condition": "GERD",
     "recommendations": [
       {
-        "drug": "Kapidex",
-        "score": 6.472
+        "drug": "Esomeprazole",
+        "score": 10
       },
       {
-        "drug": "Calcium carbonate / simethicone",
-        "score": 6.319
+        "drug": "Dexlansoprazole",
+        "score": 10
       },
       {
-        "drug": "Lansoprazole",
-        "score": 6.319
+        "drug": "Nexium",
+        "score": 10
       },
       {
-        "drug": "Ranitidine",
-        "score": 6.319
+        "drug": "Pantoprazole",
+        "score": 10
       },
       {
         "drug": "Zantac",
-        "score": 6.319
+        "score": 10
       }
     ]
   },
@@ -31,19 +31,19 @@
     "recommendations": [
       {
         "drug": "Ciprofloxacin",
-        "score": 4.149
+        "score": 10
       },
       {
         "drug": "Bactrim DS",
-        "score": 3.982
+        "score": 5
       },
       {
         "drug": "Sulfamethoxazole / trimethoprim",
-        "score": 3.982
+        "score": 5
       },
       {
         "drug": "Septra DS",
-        "score": 1.102
+        "score": 1
       }
     ]
   },
@@ -53,7 +53,7 @@
     "recommendations": [
       {
         "drug": "Flagyl",
-        "score": 7.582
+        "score": 10
       }
     ]
   },
@@ -63,11 +63,11 @@
     "recommendations": [
       {
         "drug": "Bupivacaine",
-        "score": 6.319
+        "score": 10
       },
       {
         "drug": "Mepivacaine",
-        "score": 5.119
+        "score": 8
       }
     ]
   },
@@ -77,7 +77,7 @@
     "recommendations": [
       {
         "drug": "Viibryd",
-        "score": 6.319
+        "score": 10
       }
     ]
   },
@@ -87,15 +87,15 @@
     "recommendations": [
       {
         "drug": "Olanzapine",
-        "score": 4.575
+        "score": 9
       },
       {
         "drug": "Topamax",
-        "score": 3.615
+        "score": 7
       },
       {
         "drug": "Guanfacine",
-        "score": 1.215
+        "score": 2
       }
     ]
   },
@@ -105,7 +105,7 @@
     "recommendations": [
       {
         "drug": "Tacrolimus",
-        "score": 5.422
+        "score": 7
       }
     ]
   },
@@ -114,20 +114,20 @@
     "condition": "Social Anxiety Disorde",
     "recommendations": [
       {
-        "drug": "Zoloft",
-        "score": 5.843
-      },
-      {
-        "drug": "Paxil",
-        "score": 5.719
+        "drug": "Sertraline",
+        "score": 9
       },
       {
         "drug": "Paroxetine",
-        "score": 5.148
+        "score": 9
       },
       {
-        "drug": "Sertraline",
-        "score": 4.894
+        "drug": "Zoloft",
+        "score": 9
+      },
+      {
+        "drug": "Paxil",
+        "score": 9
       }
     ]
   },
@@ -137,7 +137,7 @@
     "recommendations": [
       {
         "drug": "Haldol",
-        "score": 3.919
+        "score": 6
       }
     ]
   },
@@ -146,20 +146,20 @@
     "condition": "Dental Abscess",
     "recommendations": [
       {
-        "drug": "Flagyl",
-        "score": 4.095
+        "drug": "Metronidazole",
+        "score": 10
       },
       {
-        "drug": "Metronidazole",
-        "score": 3.954
+        "drug": "Flagyl",
+        "score": 8
       },
       {
         "drug": "Amoxicillin",
-        "score": 3.135
+        "score": 6
       },
       {
         "drug": "Erythromycin",
-        "score": 3.032
+        "score": 1
       }
     ]
   },
@@ -169,23 +169,23 @@
     "recommendations": [
       {
         "drug": "Fluticasone / vilanterol",
-        "score": 6.532
-      },
-      {
-        "drug": "Aristocort",
-        "score": 6.319
+        "score": 10
       },
       {
         "drug": "Breo Ellipta",
-        "score": 6.319
+        "score": 10
+      },
+      {
+        "drug": "Aristocort",
+        "score": 10
       },
       {
         "drug": "Mepolizumab",
-        "score": 6.319
+        "score": 10
       },
       {
         "drug": "Prednisone",
-        "score": 4.78
+        "score": 8
       }
     ]
   },
@@ -195,7 +195,7 @@
     "recommendations": [
       {
         "drug": "Omeprazole",
-        "score": 5.055
+        "score": 10
       }
     ]
   },
@@ -205,7 +205,7 @@
     "recommendations": [
       {
         "drug": "Clomiphene",
-        "score": 3.72
+        "score": 8
       }
     ]
   },
@@ -214,24 +214,24 @@
     "condition": "Onychomycosis, Toenail",
     "recommendations": [
       {
-        "drug": "Jublia",
-        "score": 5.075
-      },
-      {
-        "drug": "Ciclopirox",
-        "score": 5.055
+        "drug": "Efinaconazole",
+        "score": 10
       },
       {
         "drug": "Fluconazole",
-        "score": 5.055
+        "score": 10
+      },
+      {
+        "drug": "Ciclopirox",
+        "score": 10
+      },
+      {
+        "drug": "Jublia",
+        "score": 10
       },
       {
         "drug": "Kerydin",
-        "score": 5.055
-      },
-      {
-        "drug": "Terbinafine",
-        "score": 4.44
+        "score": 10
       }
     ]
   },
@@ -241,7 +241,7 @@
     "recommendations": [
       {
         "drug": "Budesonide",
-        "score": 6.142
+        "score": 8
       }
     ]
   },
@@ -250,12 +250,12 @@
     "condition": "Angina",
     "recommendations": [
       {
-        "drug": "Ranolazine",
-        "score": 3.892
+        "drug": "Ranexa",
+        "score": 8
       },
       {
-        "drug": "Ranexa",
-        "score": 3.547
+        "drug": "Ranolazine",
+        "score": 2
       }
     ]
   },
@@ -265,7 +265,7 @@
     "recommendations": [
       {
         "drug": "Plaquenil",
-        "score": 6.1
+        "score": 10
       }
     ]
   },
@@ -275,7 +275,7 @@
     "recommendations": [
       {
         "drug": "Diazepam",
-        "score": 5.055
+        "score": 10
       }
     ]
   },
@@ -285,11 +285,11 @@
     "recommendations": [
       {
         "drug": "Rivastigmine",
-        "score": 5.422
+        "score": 7
       },
       {
         "drug": "Donepezil",
-        "score": 3.72
+        "score": 1
       }
     ]
   },
@@ -299,7 +299,7 @@
     "recommendations": [
       {
         "drug": "Naloxegol",
-        "score": 2.8
+        "score": 7
       }
     ]
   },
@@ -309,11 +309,11 @@
     "recommendations": [
       {
         "drug": "Bupivacaine",
-        "score": 7.582
+        "score": 10
       },
       {
         "drug": "Mepivacaine",
-        "score": 6.142
+        "score": 8
       }
     ]
   },
@@ -323,23 +323,23 @@
     "recommendations": [
       {
         "drug": "Zytiga",
-        "score": 7.582
-      },
-      {
-        "drug": "Lupron",
-        "score": 7.415
+        "score": 10
       },
       {
         "drug": "Casodex",
-        "score": 4.175
+        "score": 9
+      },
+      {
+        "drug": "Lupron",
+        "score": 9
       },
       {
         "drug": "Leuprolide",
-        "score": 3.815
+        "score": 8
       },
       {
         "drug": "Zoladex",
-        "score": 1.102
+        "score": 1
       }
     ]
   },
@@ -349,23 +349,23 @@
     "recommendations": [
       {
         "drug": "Pylera",
-        "score": 6.319
+        "score": 10
       },
       {
         "drug": "Amoxicillin / clarithromycin / lansoprazole",
-        "score": 5.746
+        "score": 9
       },
       {
         "drug": "Prevpac",
-        "score": 4.948
+        "score": 8
       },
       {
         "drug": "Flagyl",
-        "score": 4.519
+        "score": 7
       },
       {
         "drug": "Bismuth subcitrate potassium / metronidazole / tetracycline",
-        "score": 3.785
+        "score": 5
       }
     ]
   },
@@ -374,20 +374,20 @@
     "condition": "Neuropathic Pain",
     "recommendations": [
       {
+        "drug": "Pregabalin",
+        "score": 9
+      },
+      {
         "drug": "Lyrica",
-        "score": 3.352
+        "score": 9
       },
       {
         "drug": "Lidocaine",
-        "score": 3.135
-      },
-      {
-        "drug": "Pregabalin",
-        "score": 3.111
+        "score": 6
       },
       {
         "drug": "Gabapentin",
-        "score": 2.511
+        "score": 2
       }
     ]
   },
@@ -397,7 +397,7 @@
     "recommendations": [
       {
         "drug": "Plavix",
-        "score": 7.582
+        "score": 10
       }
     ]
   },
@@ -406,12 +406,12 @@
     "condition": "Sinus Symptoms",
     "recommendations": [
       {
-        "drug": "Dexbrompheniramine / pseudoephedrine",
-        "score": 5.055
+        "drug": "Drixoral Cold and Allergy",
+        "score": 10
       },
       {
-        "drug": "Drixoral Cold and Allergy",
-        "score": 5.055
+        "drug": "Dexbrompheniramine / pseudoephedrine",
+        "score": 10
       }
     ]
   },
@@ -421,15 +421,15 @@
     "recommendations": [
       {
         "drug": "Bactrim",
-        "score": 5.119
-      },
-      {
-        "drug": "Sulfamethoxazole / trimethoprim",
-        "score": 3.894
+        "score": 8
       },
       {
         "drug": "Bactrim DS",
-        "score": 3.549
+        "score": 5
+      },
+      {
+        "drug": "Sulfamethoxazole / trimethoprim",
+        "score": 1
       }
     ]
   },
@@ -439,7 +439,7 @@
     "recommendations": [
       {
         "drug": "Xarelto",
-        "score": 6.319
+        "score": 10
       }
     ]
   },
@@ -448,24 +448,24 @@
     "condition": "2</span> users found this comment helpful.",
     "recommendations": [
       {
-        "drug": "Alesse",
-        "score": 6.319
+        "drug": "Loestrin 24 Fe",
+        "score": 10
       },
       {
-        "drug": "Loestrin 24 Fe",
-        "score": 6.319
+        "drug": "Alesse",
+        "score": 10
       },
       {
         "drug": "Seasonique",
-        "score": 5.119
+        "score": 8
       },
       {
         "drug": "Tri-Sprintec",
-        "score": 4.519
+        "score": 7
       },
       {
         "drug": "Sprintec",
-        "score": 3.919
+        "score": 6
       }
     ]
   },
@@ -475,7 +475,7 @@
     "recommendations": [
       {
         "drug": "Diazepam",
-        "score": 7.582
+        "score": 10
       }
     ]
   },
@@ -484,12 +484,12 @@
     "condition": "Pruritus",
     "recommendations": [
       {
-        "drug": "Lanacane",
-        "score": 7.582
+        "drug": "Sarna Sensitive",
+        "score": 10
       },
       {
-        "drug": "Sarna Sensitive",
-        "score": 7.582
+        "drug": "Lanacane",
+        "score": 10
       }
     ]
   },
@@ -499,7 +499,7 @@
     "recommendations": [
       {
         "drug": "Polyethylene glycol 3350",
-        "score": 6.319
+        "score": 10
       }
     ]
   },
@@ -509,7 +509,7 @@
     "recommendations": [
       {
         "drug": "Tacrolimus",
-        "score": 4.519
+        "score": 7
       }
     ]
   },
@@ -518,24 +518,24 @@
     "condition": "Birth Control",
     "recommendations": [
       {
-        "drug": "Natazia",
-        "score": 6.469
+        "drug": "Ethinyl estradiol / etonogestrel",
+        "score": 10
       },
       {
-        "drug": "Aubra",
-        "score": 6.335
+        "drug": "Levonorgestrel",
+        "score": 10
       },
       {
-        "drug": "Jolessa",
-        "score": 6.335
+        "drug": "Mirena",
+        "score": 10
       },
       {
-        "drug": "Amethia",
-        "score": 6.319
+        "drug": "ParaGard",
+        "score": 10
       },
       {
-        "drug": "Ethinyl estradiol / ethynodiol",
-        "score": 6.319
+        "drug": "Reclipsen",
+        "score": 10
       }
     ]
   },
@@ -545,23 +545,23 @@
     "recommendations": [
       {
         "drug": "Reglan",
-        "score": 5.179
+        "score": 10
+      },
+      {
+        "drug": "Ondansetron",
+        "score": 10
+      },
+      {
+        "drug": "Dramamine",
+        "score": 10
       },
       {
         "drug": "Bonine",
-        "score": 5.055
-      },
-      {
-        "drug": "Lorazepam",
-        "score": 5.055
+        "score": 10
       },
       {
         "drug": "Phosphorated carbohydrate solution",
-        "score": 5.055
-      },
-      {
-        "drug": "Zofran",
-        "score": 4.791
+        "score": 10
       }
     ]
   },
@@ -571,7 +571,7 @@
     "recommendations": [
       {
         "drug": "Raloxifene",
-        "score": 0.919
+        "score": 1
       }
     ]
   },
@@ -581,7 +581,7 @@
     "recommendations": [
       {
         "drug": "Opcon-A",
-        "score": 5.719
+        "score": 9
       }
     ]
   },
@@ -591,23 +591,23 @@
     "recommendations": [
       {
         "drug": "Chlorpheniramine / hydrocodone",
-        "score": 7.607
+        "score": 10
       },
       {
         "drug": "Buckleys Mixture",
-        "score": 7.582
+        "score": 10
+      },
+      {
+        "drug": "Hydromet",
+        "score": 10
       },
       {
         "drug": "Tussionex Pennkinetic",
-        "score": 7.504
+        "score": 9
       },
       {
-        "drug": "Codeine / promethazine",
-        "score": 6.902
-      },
-      {
-        "drug": "Cheratussin AC",
-        "score": 6.862
+        "drug": "Mucinex",
+        "score": 9
       }
     ]
   },
@@ -617,7 +617,7 @@
     "recommendations": [
       {
         "drug": "Lexiscan",
-        "score": 0.735
+        "score": 1
       }
     ]
   },
@@ -627,7 +627,7 @@
     "recommendations": [
       {
         "drug": "Lactaid",
-        "score": 1.102
+        "score": 1
       }
     ]
   },
@@ -637,11 +637,11 @@
     "recommendations": [
       {
         "drug": "Diflorasone",
-        "score": 5.055
+        "score": 10
       },
       {
         "drug": "Prednisone",
-        "score": 5.055
+        "score": 10
       }
     ]
   },
@@ -650,24 +650,24 @@
     "condition": "Hashimoto's disease",
     "recommendations": [
       {
-        "drug": "Synthroid",
-        "score": 6.319
+        "drug": "Thyroid desiccated",
+        "score": 10
       },
       {
-        "drug": "Thyroid desiccated",
-        "score": 5.5
+        "drug": "Synthroid",
+        "score": 10
       },
       {
         "drug": "Armour Thyroid",
-        "score": 5.119
+        "score": 8
       },
       {
         "drug": "Tirosint",
-        "score": 4.519
+        "score": 7
       },
       {
         "drug": "NP Thyroid",
-        "score": 3.319
+        "score": 5
       }
     ]
   },
@@ -677,11 +677,11 @@
     "recommendations": [
       {
         "drug": "Inulin",
-        "score": 3.319
+        "score": 5
       },
       {
         "drug": "Psyllium",
-        "score": 2.119
+        "score": 3
       }
     ]
   },
@@ -691,7 +691,7 @@
     "recommendations": [
       {
         "drug": "Doxycycline",
-        "score": 6.319
+        "score": 10
       }
     ]
   },
@@ -701,23 +701,23 @@
     "recommendations": [
       {
         "drug": "Valacyclovir",
-        "score": 5.386
+        "score": 10
       },
       {
         "drug": "Denavir",
-        "score": 5.186
-      },
-      {
-        "drug": "Benzocaine",
-        "score": 5.055
+        "score": 10
       },
       {
         "drug": "Penciclovir",
-        "score": 5.055
+        "score": 10
       },
       {
-        "drug": "Valtrex",
-        "score": 4.821
+        "drug": "Benzocaine",
+        "score": 10
+      },
+      {
+        "drug": "Famciclovir",
+        "score": 8
       }
     ]
   },
@@ -727,7 +727,7 @@
     "recommendations": [
       {
         "drug": "Mycophenolate mofetil",
-        "score": 6.142
+        "score": 8
       }
     ]
   },
@@ -737,11 +737,11 @@
     "recommendations": [
       {
         "drug": "Baclofen",
-        "score": 5.8
+        "score": 9
       },
       {
         "drug": "Botox",
-        "score": 2.119
+        "score": 3
       }
     ]
   },
@@ -751,7 +751,7 @@
     "recommendations": [
       {
         "drug": "Haldol",
-        "score": 4.702
+        "score": 6
       }
     ]
   },
@@ -760,24 +760,24 @@
     "condition": "Allergic Rhinitis",
     "recommendations": [
       {
-        "drug": "Drixoral Cold and Allergy",
-        "score": 7.768
+        "drug": "Fexofenadine",
+        "score": 10
       },
       {
-        "drug": "Azelastine",
-        "score": 7.715
+        "drug": "Xyzal",
+        "score": 10
       },
       {
-        "drug": "Astelin",
-        "score": 7.582
-      },
-      {
-        "drug": "Dexbrompheniramine / pseudoephedrine",
-        "score": 7.582
+        "drug": "Veramyst",
+        "score": 10
       },
       {
         "drug": "Flonase",
-        "score": 7.582
+        "score": 10
+      },
+      {
+        "drug": "Levocetirizine",
+        "score": 10
       }
     ]
   },
@@ -787,7 +787,7 @@
     "recommendations": [
       {
         "drug": "Zofran",
-        "score": 7.749
+        "score": 10
       }
     ]
   },
@@ -796,24 +796,24 @@
     "condition": "Rosacea",
     "recommendations": [
       {
+        "drug": "Finacea",
+        "score": 10
+      },
+      {
+        "drug": "Doxycycline",
+        "score": 10
+      },
+      {
         "drug": "Minocycline",
-        "score": 7.582
+        "score": 10
       },
       {
         "drug": "Oracea",
-        "score": 7.582
+        "score": 10
       },
       {
         "drug": "Ivermectin",
-        "score": 6.862
-      },
-      {
-        "drug": "MetroGel",
-        "score": 6.862
-      },
-      {
-        "drug": "Sulfacetamide sodium / sulfur",
-        "score": 6.142
+        "score": 9
       }
     ]
   },
@@ -823,7 +823,7 @@
     "recommendations": [
       {
         "drug": "Spironolactone",
-        "score": 5.719
+        "score": 9
       }
     ]
   },
@@ -832,24 +832,24 @@
     "condition": "High Cholesterol",
     "recommendations": [
       {
-        "drug": "Welchol",
-        "score": 5.177
+        "drug": "Crestor",
+        "score": 10
+      },
+      {
+        "drug": "Simvastatin",
+        "score": 10
       },
       {
         "drug": "Pravachol",
-        "score": 5.175
+        "score": 10
+      },
+      {
+        "drug": "Welchol",
+        "score": 10
       },
       {
         "drug": "Alirocumab",
-        "score": 5.055
-      },
-      {
-        "drug": "Pitavastatin",
-        "score": 5.055
-      },
-      {
-        "drug": "Repatha",
-        "score": 5.055
+        "score": 10
       }
     ]
   },
@@ -859,7 +859,7 @@
     "recommendations": [
       {
         "drug": "Enalapril",
-        "score": 0.735
+        "score": 1
       }
     ]
   },
@@ -868,20 +868,20 @@
     "condition": "Dry Eye Disease",
     "recommendations": [
       {
-        "drug": "Lifitegrast",
-        "score": 3.726
-      },
-      {
         "drug": "Xiidra",
-        "score": 2.175
+        "score": 4
       },
       {
-        "drug": "Ocular lubricant",
-        "score": 0.735
+        "drug": "Lifitegrast",
+        "score": 2
       },
       {
         "drug": "Systane",
-        "score": 0.735
+        "score": 1
+      },
+      {
+        "drug": "Ocular lubricant",
+        "score": 1
       }
     ]
   },
@@ -890,24 +890,24 @@
     "condition": "Constipation, Drug Induced",
     "recommendations": [
       {
-        "drug": "Movantik",
-        "score": 3.356
-      },
-      {
         "drug": "Methylnaltrexone",
-        "score": 3.267
+        "score": 2
       },
       {
-        "drug": "Relistor",
-        "score": 3.028
+        "drug": "Movantik",
+        "score": 1
       },
       {
         "drug": "Naloxegol",
-        "score": 2.19
+        "score": 1
+      },
+      {
+        "drug": "Relistor",
+        "score": 1
       },
       {
         "drug": "Lubiprostone",
-        "score": 2.062
+        "score": 1
       }
     ]
   },
@@ -916,24 +916,24 @@
     "condition": "GERD",
     "recommendations": [
       {
-        "drug": "Kapidex",
-        "score": 5.178
+        "drug": "Esomeprazole",
+        "score": 10
       },
       {
-        "drug": "Calcium carbonate / simethicone",
-        "score": 5.055
+        "drug": "Dexlansoprazole",
+        "score": 10
       },
       {
-        "drug": "Lansoprazole",
-        "score": 5.055
+        "drug": "Nexium",
+        "score": 10
       },
       {
-        "drug": "Ranitidine",
-        "score": 5.055
+        "drug": "Pantoprazole",
+        "score": 10
       },
       {
         "drug": "Zantac",
-        "score": 5.055
+        "score": 10
       }
     ]
   },
@@ -942,24 +942,24 @@
     "condition": "Diabetes, Type 1",
     "recommendations": [
       {
-        "drug": "Symlin",
-        "score": 6.319
+        "drug": "Insulin inhalation, rapid acting",
+        "score": 10
       },
       {
-        "drug": "Liraglutide",
-        "score": 5.719
+        "drug": "Symlin",
+        "score": 10
       },
       {
         "drug": "Octreotide",
-        "score": 5.719
+        "score": 9
       },
       {
-        "drug": "Insulin inhalation, rapid acting",
-        "score": 5.5
+        "drug": "Liraglutide",
+        "score": 9
       },
       {
         "drug": "Insulin glargine",
-        "score": 5.119
+        "score": 8
       }
     ]
   },
@@ -968,24 +968,24 @@
     "condition": "Ankylosing Spondylitis",
     "recommendations": [
       {
-        "drug": "Adalimumab",
-        "score": 6.319
+        "drug": "Enbrel",
+        "score": 10
       },
       {
         "drug": "Humira",
-        "score": 6.319
+        "score": 10
       },
       {
-        "drug": "Enbrel",
-        "score": 6.141
+        "drug": "Adalimumab",
+        "score": 10
       },
       {
         "drug": "Etanercept",
-        "score": 4.186
+        "score": 1
       },
       {
         "drug": "Cosentyx",
-        "score": 1.38
+        "score": 1
       }
     ]
   },
@@ -995,7 +995,7 @@
     "recommendations": [
       {
         "drug": "Progesterone",
-        "score": 5.055
+        "score": 10
       }
     ]
   },
@@ -1004,24 +1004,24 @@
     "condition": "Generalized Anxiety Disorde",
     "recommendations": [
       {
-        "drug": "Paxil",
-        "score": 5.07
-      },
-      {
-        "drug": "Celexa",
-        "score": 5.055
-      },
-      {
-        "drug": "Cymbalta",
-        "score": 4.705
+        "drug": "Lexapro",
+        "score": 10
       },
       {
         "drug": "Pregabalin",
-        "score": 4.585
+        "score": 10
       },
       {
-        "drug": "Seroquel",
-        "score": 4.575
+        "drug": "Effexor XR",
+        "score": 10
+      },
+      {
+        "drug": "Paxil",
+        "score": 10
+      },
+      {
+        "drug": "Celexa",
+        "score": 10
       }
     ]
   },
@@ -1030,24 +1030,24 @@
     "condition": "Skin or Soft Tissue Infection",
     "recommendations": [
       {
+        "drug": "Clindamycin",
+        "score": 10
+      },
+      {
         "drug": "Ciprofloxacin",
-        "score": 7.582
+        "score": 10
       },
       {
         "drug": "Cleocin HCl",
-        "score": 6.142
-      },
-      {
-        "drug": "Clindamycin",
-        "score": 5.923
+        "score": 8
       },
       {
         "drug": "Amoxicillin / clavulanate",
-        "score": 5.618
+        "score": 7
       },
       {
         "drug": "Vibramycin",
-        "score": 5.422
+        "score": 7
       }
     ]
   },
@@ -1057,15 +1057,15 @@
     "recommendations": [
       {
         "drug": "Bactrim",
-        "score": 6.142
-      },
-      {
-        "drug": "Sulfamethoxazole / trimethoprim",
-        "score": 4.672
+        "score": 8
       },
       {
         "drug": "Bactrim DS",
-        "score": 4.259
+        "score": 5
+      },
+      {
+        "drug": "Sulfamethoxazole / trimethoprim",
+        "score": 1
       }
     ]
   },
@@ -1075,7 +1075,7 @@
     "recommendations": [
       {
         "drug": "FluMist",
-        "score": 6.862
+        "score": 9
       }
     ]
   },
@@ -1085,11 +1085,11 @@
     "recommendations": [
       {
         "drug": "Orthovisc",
-        "score": 5.055
+        "score": 10
       },
       {
         "drug": "Nortrel 7 / 7 / 7",
-        "score": 3.135
+        "score": 6
       }
     ]
   },
@@ -1099,11 +1099,11 @@
     "recommendations": [
       {
         "drug": "Tamiflu",
-        "score": 7.144
+        "score": 10
       },
       {
         "drug": "Oseltamivir",
-        "score": 6.04
+        "score": 10
       }
     ]
   },
@@ -1113,15 +1113,15 @@
     "recommendations": [
       {
         "drug": "Blephamide",
-        "score": 5.055
+        "score": 10
       },
       {
         "drug": "Lortab",
-        "score": 4.575
+        "score": 9
       },
       {
         "drug": "Geodon",
-        "score": 3.615
+        "score": 7
       }
     ]
   },
@@ -1130,24 +1130,24 @@
     "condition": "Overactive Bladde",
     "recommendations": [
       {
-        "drug": "Myrbetriq",
-        "score": 7.773
+        "drug": "Oxybutynin",
+        "score": 10
       },
       {
         "drug": "Oxytrol",
-        "score": 7.582
+        "score": 10
+      },
+      {
+        "drug": "Myrbetriq",
+        "score": 10
+      },
+      {
+        "drug": "Enablex",
+        "score": 10
       },
       {
         "drug": "Tamsulosin",
-        "score": 7.582
-      },
-      {
-        "drug": "Mirabegron",
-        "score": 6.781
-      },
-      {
-        "drug": "Darifenacin",
-        "score": 6.142
+        "score": 10
       }
     ]
   },
@@ -1156,24 +1156,24 @@
     "condition": "Onychomycosis, Toenail",
     "recommendations": [
       {
-        "drug": "Jublia",
-        "score": 5.075
-      },
-      {
-        "drug": "Ciclopirox",
-        "score": 5.055
+        "drug": "Efinaconazole",
+        "score": 10
       },
       {
         "drug": "Fluconazole",
-        "score": 5.055
+        "score": 10
+      },
+      {
+        "drug": "Ciclopirox",
+        "score": 10
+      },
+      {
+        "drug": "Jublia",
+        "score": 10
       },
       {
         "drug": "Kerydin",
-        "score": 5.055
-      },
-      {
-        "drug": "Terbinafine",
-        "score": 4.44
+        "score": 10
       }
     ]
   },
@@ -1182,20 +1182,20 @@
     "condition": "Hemorrhoids",
     "recommendations": [
       {
-        "drug": "Hydrocortisone / pramoxine",
-        "score": 7.582
+        "drug": "Pramoxine",
+        "score": 10
       },
       {
         "drug": "Lidocaine",
-        "score": 7.582
+        "score": 10
       },
       {
-        "drug": "Pramoxine",
-        "score": 7.582
+        "drug": "Hydrocortisone / pramoxine",
+        "score": 10
       },
       {
         "drug": "Proctofoam HC",
-        "score": 6.862
+        "score": 9
       }
     ]
   },
@@ -1204,24 +1204,24 @@
     "condition": "Skin or Soft Tissue Infection",
     "recommendations": [
       {
+        "drug": "Clindamycin",
+        "score": 10
+      },
+      {
         "drug": "Ciprofloxacin",
-        "score": 5.055
+        "score": 10
       },
       {
         "drug": "Cleocin HCl",
-        "score": 4.095
-      },
-      {
-        "drug": "Clindamycin",
-        "score": 3.949
+        "score": 8
       },
       {
         "drug": "Amoxicillin / clavulanate",
-        "score": 3.745
+        "score": 7
       },
       {
         "drug": "Vibramycin",
-        "score": 3.615
+        "score": 7
       }
     ]
   },
@@ -1230,24 +1230,24 @@
     "condition": "Smoking Cessation",
     "recommendations": [
       {
+        "drug": "Nicotine",
+        "score": 10
+      },
+      {
         "drug": "Varenicline",
-        "score": 7.582
+        "score": 10
       },
       {
         "drug": "Commit",
-        "score": 7.582
+        "score": 10
       },
       {
         "drug": "Nicotrol Inhaler",
-        "score": 7.582
-      },
-      {
-        "drug": "Zyban",
-        "score": 7.059
+        "score": 10
       },
       {
         "drug": "Chantix",
-        "score": 6.791
+        "score": 8
       }
     ]
   },
@@ -1257,15 +1257,15 @@
     "recommendations": [
       {
         "drug": "Lyrica",
-        "score": 4.793
+        "score": 10
       },
       {
         "drug": "Nortriptyline",
-        "score": 4.757
+        "score": 10
       },
       {
         "drug": "Pregabalin",
-        "score": 4.095
+        "score": 8
       }
     ]
   },
@@ -1275,7 +1275,7 @@
     "recommendations": [
       {
         "drug": "Clopidogrel",
-        "score": 5.055
+        "score": 10
       }
     ]
   },
@@ -1285,7 +1285,7 @@
     "recommendations": [
       {
         "drug": "Naloxegol",
-        "score": 3.36
+        "score": 7
       }
     ]
   },
@@ -1295,7 +1295,7 @@
     "recommendations": [
       {
         "drug": "Formoterol / mometasone",
-        "score": 3.857
+        "score": 10
       }
     ]
   },
@@ -1304,24 +1304,24 @@
     "condition": "Conjunctivitis, Allergic",
     "recommendations": [
       {
-        "drug": "Alcaftadine",
-        "score": 5.055
-      },
-      {
-        "drug": "Bepotastine",
-        "score": 5.055
+        "drug": "Lastacaft",
+        "score": 10
       },
       {
         "drug": "Ketotifen",
-        "score": 5.055
-      },
-      {
-        "drug": "Lastacaft",
-        "score": 5.055
+        "score": 10
       },
       {
         "drug": "Pemirolast",
-        "score": 2.96
+        "score": 10
+      },
+      {
+        "drug": "Alcaftadine",
+        "score": 10
+      },
+      {
+        "drug": "Bepotastine",
+        "score": 10
       }
     ]
   },
@@ -1331,11 +1331,11 @@
     "recommendations": [
       {
         "drug": "Chlorpromazine",
-        "score": 6.319
+        "score": 10
       },
       {
         "drug": "Thorazine",
-        "score": 3.4
+        "score": 9
       }
     ]
   },
@@ -1344,24 +1344,24 @@
     "condition": "Osteoarthritis",
     "recommendations": [
       {
-        "drug": "Depo-Medrol",
-        "score": 5.179
+        "drug": "Diclofenac",
+        "score": 10
       },
       {
-        "drug": "Mobic",
-        "score": 5.178
+        "drug": "Voltaren Gel",
+        "score": 10
       },
       {
         "drug": "Arthrotec",
-        "score": 5.055
-      },
-      {
-        "drug": "Kenalog-40",
-        "score": 5.055
+        "score": 10
       },
       {
         "drug": "Valdecoxib",
-        "score": 5.055
+        "score": 10
+      },
+      {
+        "drug": "Mobic",
+        "score": 10
       }
     ]
   },
@@ -1371,23 +1371,23 @@
     "recommendations": [
       {
         "drug": "Brodalumab",
-        "score": 5.055
-      },
-      {
-        "drug": "Humira",
-        "score": 3.025
-      },
-      {
-        "drug": "Taltz",
-        "score": 3.025
+        "score": 10
       },
       {
         "drug": "Apremilast",
-        "score": 1.715
+        "score": 5
       },
       {
         "drug": "Otezla",
-        "score": 1.268
+        "score": 2
+      },
+      {
+        "drug": "Ixekizumab",
+        "score": 2
+      },
+      {
+        "drug": "Humira",
+        "score": 1
       }
     ]
   },
@@ -1397,7 +1397,7 @@
     "recommendations": [
       {
         "drug": "Clotrimazole",
-        "score": 0.735
+        "score": 1
       }
     ]
   },
@@ -1407,19 +1407,19 @@
     "recommendations": [
       {
         "drug": "Fluorouracil",
-        "score": 6.319
+        "score": 10
       },
       {
         "drug": "Efudex",
-        "score": 5.719
+        "score": 9
       },
       {
         "drug": "Imiquimod",
-        "score": 5.5
+        "score": 9
       },
       {
         "drug": "Zyclara",
-        "score": 4.519
+        "score": 7
       }
     ]
   },
@@ -1429,15 +1429,15 @@
     "recommendations": [
       {
         "drug": "X-Viate",
-        "score": 7.582
+        "score": 10
       },
       {
         "drug": "EpiCeram",
-        "score": 6.862
+        "score": 9
       },
       {
         "drug": "Emollients",
-        "score": 4.08
+        "score": 1
       }
     ]
   },
@@ -1447,7 +1447,7 @@
     "recommendations": [
       {
         "drug": "Natpara",
-        "score": 3.615
+        "score": 7
       }
     ]
   },
@@ -1457,7 +1457,7 @@
     "recommendations": [
       {
         "drug": "Reglan",
-        "score": 2.72
+        "score": 1
       }
     ]
   },
@@ -1467,15 +1467,15 @@
     "recommendations": [
       {
         "drug": "Olanzapine",
-        "score": 6.862
+        "score": 9
       },
       {
         "drug": "Topamax",
-        "score": 5.422
+        "score": 7
       },
       {
         "drug": "Guanfacine",
-        "score": 1.822
+        "score": 2
       }
     ]
   },
@@ -1484,20 +1484,20 @@
     "condition": "Atopic Dermatitis",
     "recommendations": [
       {
-        "drug": "Tacrolimus",
-        "score": 4.757
+        "drug": "Crisaborole",
+        "score": 9
       },
       {
         "drug": "Eucrisa",
-        "score": 4.596
+        "score": 9
+      },
+      {
+        "drug": "Tacrolimus",
+        "score": 8
       },
       {
         "drug": "Fluticasone",
-        "score": 4.095
-      },
-      {
-        "drug": "Crisaborole",
-        "score": 3.751
+        "score": 8
       }
     ]
   },
@@ -1506,12 +1506,12 @@
     "condition": "Sinus Symptoms",
     "recommendations": [
       {
-        "drug": "Dexbrompheniramine / pseudoephedrine",
-        "score": 7.582
+        "drug": "Drixoral Cold and Allergy",
+        "score": 10
       },
       {
-        "drug": "Drixoral Cold and Allergy",
-        "score": 7.582
+        "drug": "Dexbrompheniramine / pseudoephedrine",
+        "score": 10
       }
     ]
   },
@@ -1520,24 +1520,24 @@
     "condition": "2</span> users found this comment helpful.",
     "recommendations": [
       {
-        "drug": "Alesse",
-        "score": 6.319
+        "drug": "Loestrin 24 Fe",
+        "score": 10
       },
       {
-        "drug": "Loestrin 24 Fe",
-        "score": 6.319
+        "drug": "Alesse",
+        "score": 10
       },
       {
         "drug": "Seasonique",
-        "score": 5.119
+        "score": 8
       },
       {
         "drug": "Tri-Sprintec",
-        "score": 4.519
+        "score": 7
       },
       {
         "drug": "Sprintec",
-        "score": 3.919
+        "score": 6
       }
     ]
   },
@@ -1547,15 +1547,15 @@
     "recommendations": [
       {
         "drug": "Caffeine",
-        "score": 5.2
+        "score": 7
       },
       {
         "drug": "Armodafinil",
-        "score": 3.319
+        "score": 5
       },
       {
         "drug": "Modafinil",
-        "score": 0.919
+        "score": 1
       }
     ]
   },
@@ -1565,15 +1565,15 @@
     "recommendations": [
       {
         "drug": "Bactrim",
-        "score": 6.142
-      },
-      {
-        "drug": "Sulfamethoxazole / trimethoprim",
-        "score": 4.672
+        "score": 8
       },
       {
         "drug": "Bactrim DS",
-        "score": 4.259
+        "score": 5
+      },
+      {
+        "drug": "Sulfamethoxazole / trimethoprim",
+        "score": 1
       }
     ]
   },
@@ -1583,23 +1583,23 @@
     "recommendations": [
       {
         "drug": "Lansoprazole",
-        "score": 6.4
+        "score": 10
       },
       {
         "drug": "Esomeprazole",
-        "score": 6.319
-      },
-      {
-        "drug": "Omeprazole",
-        "score": 6.319
+        "score": 10
       },
       {
         "drug": "Prevacid",
-        "score": 6.319
+        "score": 10
+      },
+      {
+        "drug": "Omeprazole",
+        "score": 10
       },
       {
         "drug": "Rabeprazole",
-        "score": 6.319
+        "score": 10
       }
     ]
   },
@@ -1609,11 +1609,11 @@
     "recommendations": [
       {
         "drug": "Orthovisc",
-        "score": 7.582
+        "score": 10
       },
       {
         "drug": "Nortrel 7 / 7 / 7",
-        "score": 4.702
+        "score": 6
       }
     ]
   },
@@ -1623,7 +1623,7 @@
     "recommendations": [
       {
         "drug": "BuSpar",
-        "score": 7.582
+        "score": 10
       }
     ]
   },
@@ -1632,24 +1632,24 @@
     "condition": "Not Listed / Othe",
     "recommendations": [
       {
+        "drug": "Oxycodone",
+        "score": 10
+      },
+      {
         "drug": "Phentermine",
-        "score": 5.132
-      },
-      {
-        "drug": "Benzoyl peroxide",
-        "score": 5.055
-      },
-      {
-        "drug": "Buprenorphine / naloxone",
-        "score": 5.055
-      },
-      {
-        "drug": "Lisinopril",
-        "score": 5.055
+        "score": 10
       },
       {
         "drug": "Meloxicam",
-        "score": 5.055
+        "score": 10
+      },
+      {
+        "drug": "Benzoyl peroxide",
+        "score": 10
+      },
+      {
+        "drug": "Undecylenic acid",
+        "score": 10
       }
     ]
   },
@@ -1659,7 +1659,7 @@
     "recommendations": [
       {
         "drug": "Oracea",
-        "score": 6.319
+        "score": 10
       }
     ]
   },
@@ -1669,15 +1669,15 @@
     "recommendations": [
       {
         "drug": "Streptokinase",
-        "score": 7.582
+        "score": 10
       },
       {
         "drug": "Clopidogrel",
-        "score": 1.822
+        "score": 2
       },
       {
         "drug": "Metoprolol",
-        "score": 1.102
+        "score": 1
       }
     ]
   },
@@ -1686,12 +1686,12 @@
     "condition": "Tinea Pedis",
     "recommendations": [
       {
-        "drug": "Lamisil",
-        "score": 5.055
+        "drug": "Terbinafine",
+        "score": 10
       },
       {
-        "drug": "Terbinafine",
-        "score": 5.055
+        "drug": "Lamisil",
+        "score": 10
       }
     ]
   },
@@ -1701,7 +1701,7 @@
     "recommendations": [
       {
         "drug": "Cholestyramine",
-        "score": 5.8
+        "score": 9
       }
     ]
   },
@@ -1710,12 +1710,12 @@
     "condition": "Chronic Pancreatitis",
     "recommendations": [
       {
-        "drug": "Creon",
-        "score": 7.582
+        "drug": "Pancrelipase",
+        "score": 10
       },
       {
-        "drug": "Pancrelipase",
-        "score": 7.582
+        "drug": "Creon",
+        "score": 10
       }
     ]
   }

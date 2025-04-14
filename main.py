@@ -8,6 +8,9 @@ from embedding import create_embeddings
 from model import train_model
 from recommend import recommend
 from evaluate import evaluate
+from collaborative import collaborative_recommend
+from graph_model import graph_recommend
+import numpy as np
 
 def main():
     start = time.time()
@@ -21,6 +24,14 @@ def main():
 
         # Train model using embedded data
         model = train_model(train_df, train_emb)
+        collab_recs = collaborative_recommend(train_df, patient_df)
+        graph_recs = graph_recommend(train_df, patient_df)
+
+        # Save them with custom serializer
+        with open(os.path.join(RESULTS_DIR, "collab_recommendations.json"), 'w') as f:
+            json.dump(collab_recs, f, indent=2, default=lambda o: int(o) if hasattr(o, 'item') else str(o))
+        with open(os.path.join(RESULTS_DIR, "graph_recommendations.json"), 'w') as f:
+            json.dump(graph_recs, f, indent=2, default=lambda o: int(o) if hasattr(o, 'item') else str(o))
 
         # Generate recommendations with updated embeddings
         recommendations = recommend(patient_df, model, patient_emb, tfidf)
@@ -28,9 +39,9 @@ def main():
         # Evaluate performance
         metrics = evaluate(test_df, model)
 
-        # Save recommendations
+        # Save recommendations with serializer
         with open(os.path.join(RESULTS_DIR, "recommendations.json"), 'w') as f:
-            json.dump(recommendations, f, indent=2)
+            json.dump(recommendations, f, indent=2, default=lambda o: int(o) if hasattr(o, 'item') else str(o))
 
         elapsed = time.time() - start
         logger.info(f"Pipeline completed in {elapsed:.2f}s")
