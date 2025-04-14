@@ -4,7 +4,6 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from textblob import TextBlob
 import warnings
-import json
 import pickle
 import os
 
@@ -26,7 +25,7 @@ patient_df = preprocess_df(patient_df)
 
 # Sentiment analysis
 def get_sentiment(text):
-    return TextBlob(text).sentiment.polarity
+    return TextBlob(str(text)).sentiment.polarity
 
 if 'sentiment' not in train_df.columns:
     train_df['sentiment'] = train_df['review'].apply(get_sentiment)
@@ -34,7 +33,7 @@ if 'sentiment' not in train_df.columns:
 if 'sentiment' not in patient_df.columns:
     patient_df['sentiment'] = patient_df['review'].apply(get_sentiment)
 
-# Sample for performance
+# Sample train data for performance
 train_df = train_df.sample(n=15000, random_state=42).reset_index(drop=True)
 
 # Load or compute embeddings
@@ -54,56 +53,59 @@ else:
         pickle.dump(train_embeddings, f)
     print("✅ Saved embeddings to disk.")
 
-# Recommend drugs for a single patient
-def recommend_for_patient(patient_id, top_n=3):
-    patient_data = patient_df[patient_df['patient_id'] == patient_id]
-    if patient_data.empty:
-        return None, f"❌ No data found for patient ID: {patient_id}"
-
-    # Patient embedding
-    patient_text = " ".join(patient_data['text'].tolist())
-    patient_embedding = model.encode([patient_text])[0]
-
-    # Cosine similarity
-    similarities = cosine_similarity([patient_embedding], train_embeddings)[0]
-    train_df['similarity'] = similarities
-
-    # Hybrid score calculation
-    train_df['hybrid_score'] = (
-        0.7 * train_df['rating'] +
-        0.3 * (train_df['sentiment'] * 10) +
-        0.1 * (train_df['similarity'] * 10)
-    )
-
-    top_drugs = (
-        train_df.groupby('drugName')['hybrid_score']
-        .mean()
-        .sort_values(ascending=False)
-        .head(top_n)
-        .reset_index()
-    )
-
+# Recommend drugs for all patients
+def recommend_for_all_patients(top_n=3):
+    print("🔍 Generating recommendations for all patients...")
     results = []
-    for _, row in top_drugs.iterrows():
-        results.append({
-            'patient_id': patient_id,
-            'recommended_drug': row['drugName'],
-            'hybrid_score': round(row['hybrid_score'], 2)
-        })
 
-    # Save results
+    # Precompute train_df groupby
+    train_grouped = train_df.copy()
+    train_grouped['embedding'] = list(train_embeddings)
+
+    for patient_id in patient_df['patient_id'].unique():
+        patient_data = patient_df[patient_df['patient_id'] == patient_id]
+        if patient_data.empty:
+            continue
+
+        patient_text = " ".join(patient_data['text'].tolist())
+        patient_embedding = model.encode([patient_text])[0]
+
+        similarities = cosine_similarity([patient_embedding], train_embeddings)[0]
+        train_grouped['similarity'] = similarities
+
+        # Hybrid scoring
+        train_grouped['hybrid_score'] = (
+            0.7 * train_grouped['rating'] +
+            0.3 * (train_grouped['sentiment'] * 10) +
+            0.1 * (train_grouped['similarity'] * 10)
+        )
+
+        top_drugs = (
+            train_grouped.groupby('drugName')['hybrid_score']
+            .mean()
+            .sort_values(ascending=False)
+            .head(top_n)
+            .reset_index()
+        )
+
+        for _, row in top_drugs.iterrows():
+            results.append({
+                'patient_id': int(patient_id),
+                'recommended_drug': str(row['drugName']),
+                'hybrid_score': float(round(row['hybrid_score'], 2))
+            })
+
+    results_df = pd.DataFrame(results)
+
+    # Save results in formats more compatible with Streamlit
     os.makedirs("results", exist_ok=True)
-    result_df = pd.DataFrame(results)
-    result_df.to_csv("results/personalized_recommendation_single.csv", index=False)
-    with open("results/personalized_recommendation_single.json", "w") as f:
-        json.dump({patient_id: results}, f, indent=2)
+    results_df.to_csv("results/all_recommendations.csv", index=False)
+    results_df.to_parquet("results/all_recommendations.parquet", index=False)
+    print("✅ Saved recommendations for all patients as CSV and Parquet.")
 
-    print(f"✔ Saved recommendations for patient {patient_id}.")
-    return result_df, None
+    return results_df
 
-# Example call
+# Run recommendation and evaluation pipeline
 if __name__ == "__main__":
-    patient_id_input = 103  # Can be changed dynamically
-    _, msg = recommend_for_patient(patient_id_input)
-    if msg:
-        print(msg)
+    all_results_df = recommend_for_all_patients(top_n=3)
+    print("\nSample Output:\n", all_results_df.head())
