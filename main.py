@@ -1,15 +1,15 @@
 import time
 import json
 import os
-from logger import logger
-from config import RESULTS_DIR
-from data_loader import load_data
-from embedding import create_embeddings
-from model import train_model
-from recommend import recommend
-from evaluate import evaluate
-from collaborative import collaborative_recommend
-from graph_model import graph_recommend
+from model.logger import logger
+from model.config import RESULTS_DIR
+from model.data_loader import load_data
+from model.embedding import create_embeddings
+from model.model import train_model
+from model.recommend import recommend
+from model.evaluate import evaluate
+from model.collaborative import collaborative_recommend
+from model.graph_model import graph_recommend
 import numpy as np
 
 def main():

@@ -2,11 +2,11 @@ import os
 import numpy as np
 import pandas as pd
 import pickle
-from config import (
+from model.config import (
     DATA_DIR, EMBEDDINGS_DIR, SAMPLE_SIZE,
     RECENCY_REFERENCE_DATE, MAX_RECENCY_YEARS
 )
-from logger import logger
+from model.logger import logger
 
 def load_data():
     """Load and preprocess data"""

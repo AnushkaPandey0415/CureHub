@@ -2,7 +2,7 @@
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 from scipy.sparse import csr_matrix
-from logger import logger
+from model.logger import logger
 
 def build_user_item_matrix(df):
     logger.info("Building user-item matrix...")

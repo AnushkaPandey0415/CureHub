@@ -1,6 +1,6 @@
 # graph_model.py
 import networkx as nx
-from logger import logger
+from model.logger import logger
 from collections import defaultdict
 
 def build_graph(df):

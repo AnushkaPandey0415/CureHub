@@ -1,5 +1,5 @@
-from config import TOP_N
-from logger import logger
+from model.config import TOP_N
+from model.logger import logger
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 

@@ -3,8 +3,8 @@ import pickle
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
-from config import EMBEDDINGS_DIR, MODEL_NAME, EMB_WEIGHT, TFIDF_WEIGHT
-from logger import logger
+from model.config import EMBEDDINGS_DIR, MODEL_NAME, EMB_WEIGHT, TFIDF_WEIGHT
+from model.logger import logger
 
 def create_embeddings(df, column='text'):
     """Create sentence and TF-IDF embeddings"""

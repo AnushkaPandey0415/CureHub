@@ -1,5 +1,5 @@
-from config import TOP_N
-from logger import logger
+from model.config import TOP_N
+from model.logger import logger
 
 def evaluate(test_df, model):
     """Evaluate model using Hit Rate and MRR"""

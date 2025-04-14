@@ -3,8 +3,8 @@ import pickle
 import numpy as np
 import pandas as pd
 from sklearn.cluster import KMeans
-from config import EMBEDDINGS_DIR
-from logger import logger
+from model.config import EMBEDDINGS_DIR
+from model.logger import logger
 from sklearn.metrics.pairwise import cosine_similarity
 
 def train_model(train_df, embeddings):
