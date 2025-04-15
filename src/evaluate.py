@@ -29,6 +29,7 @@ def evaluate_model():
 
     with open("results/metrics.json", "w") as f:
         json.dump(metrics, f, indent=4)
+    print("✅ metrics.json created!")
 
     # Save detailed recommendations
     recommendations = []
@@ -41,6 +42,7 @@ def evaluate_model():
 
     with open("results/recommendations.json", "w") as f:
         json.dump(recommendations, f, indent=4)
+    print("✅ recommendations.json created!")
 
 if __name__ == "__main__":
     evaluate_model()
