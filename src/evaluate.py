@@ -1,6 +1,8 @@
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 import pickle
 from preprocess import load_and_preprocess
+import json
+import os
 
 def evaluate_model():
     df_test = load_and_preprocess("data/drugsComTest_raw.csv")
@@ -15,11 +17,30 @@ def evaluate_model():
     X_test_vec = vectorizer.transform(X_test)
     y_pred = model.predict(X_test_vec)
 
-    print("Evaluation:")
-    print(f"Accuracy: {accuracy_score(y_test, y_pred):.4f}")
-    print(f"Precision: {precision_score(y_test, y_pred, average='weighted'):.4f}")
-    print(f"Recall: {recall_score(y_test, y_pred, average='weighted'):.4f}")
-    print(f"F1 Score: {f1_score(y_test, y_pred, average='weighted'):.4f}")
+    # Save performance metrics
+    metrics = {
+        "accuracy": accuracy_score(y_test, y_pred),
+        "precision": precision_score(y_test, y_pred, average="weighted", zero_division=0),
+        "recall": recall_score(y_test, y_pred, average="weighted", zero_division=0),
+        "f1_score": f1_score(y_test, y_pred, average="weighted", zero_division=0)
+    }
+
+    os.makedirs("results", exist_ok=True)
+
+    with open("results/metrics.json", "w") as f:
+        json.dump(metrics, f, indent=4)
+
+    # Save detailed recommendations
+    recommendations = []
+    for review, actual, predicted in zip(X_test, y_test, y_pred):
+        recommendations.append({
+            "review": review,
+            "actual_condition": actual,
+            "predicted_condition": predicted
+        })
+
+    with open("results/recommendations.json", "w") as f:
+        json.dump(recommendations, f, indent=4)
 
 if __name__ == "__main__":
     evaluate_model()
